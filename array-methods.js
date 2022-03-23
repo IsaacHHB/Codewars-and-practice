@@ -1,3 +1,11 @@
+let nums = [10,20,30]
+
+let robotNewArr = nums.map( n => n += 10 )
+
+
+
+
+
 //1st task on array-methods
 function camelize(str) {
     return str
