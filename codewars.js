@@ -42,7 +42,16 @@ function areYouPlayingBanjo(name) {
 //For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
 function findMultiples(int,limit){
   let result = []
-  for (let i = int; i <= limit ; i += int)
-    result.push(i)    
+  for(let i = int; int <= limit; int += limit)
+    result.push(i)
   return result
 }
+
+//It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+function removeChar(str){
+  let arr = str.split('');
+  arr.shift();
+  arr.pop();
+  return arr.join('');
+};
