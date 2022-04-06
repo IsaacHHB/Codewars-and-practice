@@ -55,3 +55,10 @@ function removeChar(str){
   arr.pop();
   return arr.join('');
 };
+
+//Complete the solution so that it reverses the string passed into it.
+
+function solution(str){
+  let arr = str.split('').reverse().join('')
+  return arr
+}
