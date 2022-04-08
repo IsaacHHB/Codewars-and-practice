@@ -84,3 +84,11 @@ function noSpace(x){
 function squareSum(numbers) {
   return numbers.reduce( (acc, cur) => acc + (cur **2), 0)
 }
+
+//Given an array of integers your solution should find the smallest integer.
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
