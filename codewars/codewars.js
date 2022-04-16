@@ -172,3 +172,11 @@ function maps(x){
   let arr = x.map(x => x * 2)
   return arr
 }
+
+// replace "-" with a space " "
+function work(choice){
+  return choice.replaceAll('-', ' ')
+}
+work('acid-arrow-punk')
+
+
