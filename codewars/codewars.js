@@ -165,3 +165,10 @@ function basicOp(operation, value1, value2){
     return value1 / value2
   }
 }
+
+//Given an array of integers, return a new array with each value doubled.
+
+function maps(x){
+  let arr = x.map(x => x * 2)
+  return arr
+}
