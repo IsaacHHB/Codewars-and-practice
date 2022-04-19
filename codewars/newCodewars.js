@@ -40,3 +40,9 @@ function greet(name){
     return (n*2) -2
   }
 
+  //Return the Nth Even Number
+
+  function nthEven(n){
+    return (n*2) -2
+  }
+
