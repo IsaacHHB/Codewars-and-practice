@@ -98,3 +98,10 @@ function findNeedle(haystack) {
 function reverseWords(str){
     return str.split(' ').reverse().join(' ')
 }
+
+//Write a function which converts the input string to uppercase.
+
+function makeUpperCase(str) {
+    return str.toUpperCase()
+  }
+
