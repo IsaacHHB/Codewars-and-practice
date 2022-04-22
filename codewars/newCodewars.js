@@ -110,3 +110,16 @@ function makeUpperCase(str) {
 const reverseSeq = n => {
     return Array(n).fill(0).map((e, i) => n - i );
   };
+
+  // Rock paper or scissors
+
+  function rockPaperScissors(){
+    random = Math.random()
+    if(random > .33){
+        return 'rock'
+    }else if(random > .66){
+        return 'paper'
+    }else{
+        return 'scissors'
+    }
+  }
