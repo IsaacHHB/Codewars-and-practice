@@ -129,3 +129,10 @@ const reverseSeq = n => {
   function fakeBin(x){
     return x.split('').map((num) => num > 4 ? 1 : 0).join(''); 
   }
+
+//Return the average of the given array rounded down to its nearest integer.
+
+  function getAverage(marks){
+    //TODO : calculate the downward rounded average of the marks array
+    return Math.floor(marks.reduce((x,y) => x + y) / marks.length);
+  }
