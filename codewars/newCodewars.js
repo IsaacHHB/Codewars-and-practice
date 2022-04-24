@@ -158,3 +158,7 @@ function find_average(array) {
       return 0
     }
 }
+
+function find_average(array) {
+    return array > [0] ? array.reduce((a,b) => a+b) / array.length : 0
+  }
