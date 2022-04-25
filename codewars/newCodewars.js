@@ -181,3 +181,18 @@ function betterThanAverage(classPoints, yourPoints) {
     classPoints = classPoints.reduce((a,b) => a + b) /classPoints.length
     return classPoints < yourPoints ? true : false
   }
+
+//Write function bmi that calculates body mass index (bmi = weight / height2).
+
+function bmi(weight, height) {
+    let bodyMassIndex = weight / ( height * height)
+    if (bodyMassIndex <= 18.5){
+      return "Underweight" 
+    }else if (bodyMassIndex <= 25.0){
+      return "Normal"
+    }else if (bodyMassIndex <= 30.0){
+      return "Overweight"
+    }else{
+      return "Obese"
+    }  
+  }
