@@ -156,3 +156,6 @@ function squareDigits(num){
   
   return parseInt(newNum.join(''));
 }
+
+//The function is not returning the correct values. Can you figure out why?
+
