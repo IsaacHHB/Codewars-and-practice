@@ -202,3 +202,5 @@ function otherAngle(a, b) {
 function feast(beast, dish) {
   return beast[0] === dish[0] && beast[beast.length -1] === dish[dish.length -1]
 }
+
+//Your task is to find the first element of an array that is not consecutive. By not consecutive we mean not exactly 1 larger than the previous element of the array.
