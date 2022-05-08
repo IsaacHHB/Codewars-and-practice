@@ -235,3 +235,5 @@ function firstNonConsecutive (arr) {
 function setAlarm(employed, vacation){
   return employed === true && vacation === true ? false : employed === false && vacation === true ? false : employed === false && vacation === false ? false : true
 }
+
+//Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
