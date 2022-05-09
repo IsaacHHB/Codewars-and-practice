@@ -265,3 +265,13 @@ function enough(cap, on, wait) {
 
 const divisibleBy = (numbers, divisor) =>
   numbers.filter(number => number % divisor === 0)
+
+// function divisibleBy(numbers, divisor) {
+//   var newArr = [];
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % divisor === 0) {
+//       newArr.push(numbers[i]);
+//     } 
+//   }
+// return newArr;
+// }
