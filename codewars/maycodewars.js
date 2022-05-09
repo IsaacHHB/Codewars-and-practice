@@ -250,3 +250,5 @@ function doubleChar(str) {
 //Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
 
 const removeEveryOther = array => array.filter((_, i) => i % 2 === 0)
+
+//Bob is working as a bus driver. However, he has become extremely popular amongst the city's residents. With so many passengers wanting to get aboard his bus, he sometimes has to face the problem of not enough space left on the bus! He wants you to write a simple program telling him if he will be able to fit all the passengers.
