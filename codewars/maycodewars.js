@@ -294,3 +294,6 @@ function solution(a, b){
     return `${b}${a}${b}`
   }
 }
+
+//When provided with a number between 0-9, return it in words. If your language supports it, try using a switch statement.
+
