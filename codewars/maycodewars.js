@@ -297,3 +297,36 @@ function solution(a, b){
 
 //When provided with a number between 0-9, return it in words. If your language supports it, try using a switch statement.
 
+function switchItUp(number){
+  let outPut
+  switch(number){
+     case 1:
+      outPut = 'One'
+      break;
+      case 2:
+      outPut = 'Two'
+      break;
+      case 3:
+      outPut = 'Three'
+      break;
+      case 4:
+      outPut = 'Four'
+      break;
+      case 5:
+      outPut = 'Five'
+      break;
+      case 6:
+      outPut = 'Six'
+      break;
+      case 7:
+      outPut = 'Seven'
+      break;
+      case 8:
+      outPut = 'Eight'
+      break;
+      case 9:
+      outPut = 'Nine'
+      break;
+  }
+  return outPut
+}
