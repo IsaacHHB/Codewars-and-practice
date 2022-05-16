@@ -360,3 +360,5 @@ function createArray(number){
 //You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square. If it is a square, return its area. If it is a rectangle, return its perimeter.
 
 const areaOrPerimeter = (l , w) => l === w ? l*w : 2*(l+w);
+
+//Bob needs a fast way to calculate the volume of a cuboid with three values: the length, width and height of the cuboid. Write a function to help Bob with this calculation.
