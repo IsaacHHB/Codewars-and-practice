@@ -344,3 +344,15 @@ function hoopCount (n) {
 //Given three integers a ,b ,c, return the largest number obtained after inserting the following operators and brackets: +, *, () In other words , try every combination of a,b,c with [*+()] , and return the Maximum Obtained
 
 const expressionMatter = (a, b, c) => Math.max(a + b + c, a * b * c, (a + b) * c, a * (b + c))
+
+//Oh no, Timmy's created an infinite loop! Help Timmy find and fix the bug in his unfinished for loop!
+
+function createArray(number){
+  var newArray = [];
+  
+  for(var counter = 1; counter <= number; counter++){
+    newArray.push(counter);
+  }
+  
+  return newArray;
+}
