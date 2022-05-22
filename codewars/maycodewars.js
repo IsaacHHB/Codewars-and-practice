@@ -390,16 +390,18 @@ function twoSort(s) {
 
 function howMuchILoveYou(nbPetals) {
   if(nbPetals%6 == 1){
-  return ("I love you");
-}else if(nbPetals%6 == 2){
-  return ("a little");
-}else if(nbPetals%6 ==3){
-  return ("a lot");
-}else if(nbPetals%6 ==4){
-  return ("passionately");
-}else if(nbPetals%6 == 5){
-  return ("madly");
-}else{
-  return ("not at all");
+    return ("I love you");
+  }else if(nbPetals%6 == 2){
+    return ("a little");
+  }else if(nbPetals%6 ==3){
+    return ("a lot");
+  }else if(nbPetals%6 ==4){
+    return ("passionately");
+  }else if(nbPetals%6 == 5){
+    return ("madly");
+  }else{
+    return ("not at all");
+  }
 }
-}
+
+//Create a function that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one. If no occurrences can be found, a count of 0 should be returned.
