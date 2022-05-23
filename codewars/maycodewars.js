@@ -423,3 +423,11 @@ const dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!"
 const  howManyDalmatians = number => number <= 10 ? dogs[0] : number <= 50 ? dogs[1] : number === 101 ? dogs[3] : dogs[2];
 
 //We want an array, but not just any old array, an array with contents! Write a function that produces an array with the numbers 0 to N-1 in it.
+
+const arr = N => {
+  const arr = [];
+  for(let i = 0; i < N; i++) {
+    arr.push(i);
+  }
+  return arr;
+};
