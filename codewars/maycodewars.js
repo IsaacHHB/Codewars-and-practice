@@ -475,3 +475,6 @@ welsh: 'Croeso'
 }
 
 //write me a function stringy that takes a size and returns a string of alternating '1s' and '0s'.
+
+const stringy = size =>
+  [...new Array(size)].map((element, i) => (i % 2 === 0 ? 1 : 0)).join('')
