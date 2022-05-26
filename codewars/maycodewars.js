@@ -473,3 +473,5 @@ welsh: 'Croeso'
 }
   return base[language] || base.english;
 }
+
+//write me a function stringy that takes a size and returns a string of alternating '1s' and '0s'.
