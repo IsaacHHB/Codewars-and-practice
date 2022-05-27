@@ -478,3 +478,5 @@ welsh: 'Croeso'
 
 const stringy = size =>
   [...new Array(size)].map((element, i) => (i % 2 === 0 ? 1 : 0)).join('')
+
+//Add the isUpperCase method to String to see whether the string is ALL CAPS. For example:
