@@ -484,3 +484,5 @@ const stringy = size =>
 String.prototype.isUpperCase = function() {
   return this==this.toUpperCase()
 }
+
+//Training JS #7: if..else and ternary operator
