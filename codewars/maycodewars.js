@@ -497,3 +497,5 @@ function filter_list(l) {
   const onlyNums = l.filter(e => typeof e === 'number')
   return onlyNums
 }
+
+//Write a function that checks if a given string (case insensitive) is a palindrome.
