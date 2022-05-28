@@ -503,3 +503,5 @@ function filter_list(l) {
 function isPalindrome(x) {
   return x.toLowerCase()==x.split('').reverse().join('').toLowerCase()
 }
+
+//Write a function that always returns 5 Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
