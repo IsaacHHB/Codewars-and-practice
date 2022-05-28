@@ -490,3 +490,5 @@ String.prototype.isUpperCase = function() {
 function saleHotdogs(n){
   return n < 5 ? 100 * n : n >= 5 && n < 10 ? 95 * n : 90 * n
 }
+
+//In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
