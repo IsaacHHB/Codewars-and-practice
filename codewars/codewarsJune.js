@@ -13,3 +13,5 @@ function pipeFix(numbers){
 function combat(health, damage) {
   return Math.max(health - damage, 0);
 }
+
+//Write a function that returns a string in which firstname is swapped with last name.
