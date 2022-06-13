@@ -48,3 +48,8 @@ function weatherInfo (temp) {
     return (c + " is above freezing temperature")
 }
 
+function convertToCelsius (temperature) {
+  var celcius = (temperature - 32) * (5/9)
+  return celcius
+}
+
