@@ -40,3 +40,11 @@ function move (position, roll) {
 
 //Your friend is traveling abroad to the United States so he wrote a program to convert fahrenheit to celsius. Unfortunately his code has some bugs.
 
+function weatherInfo (temp) {
+  var c = convertToCelsius(temp)
+  if (c < 0)
+    return (c + " is freezing temperature")
+  else
+    return (c + " is above freezing temperature")
+}
+
