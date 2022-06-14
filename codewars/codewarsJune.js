@@ -91,3 +91,16 @@ function descendingOrder(n){
 // accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 // accum("cwAt") -> "C-Ww-Aaa-Tttt"
 
+function accum(s) {
+	const result = []
+  const lowStr = s.toLowerCase()
+  
+  for(let i = 0; i < lowStr.length; i++){
+    let str = lowStr[i].toUpperCase()
+    for(let j = 0; j < i; j++){
+      str += lowStr[i]
+    }
+    result.push(str)
+  }
+  return result.join('-')
+}
