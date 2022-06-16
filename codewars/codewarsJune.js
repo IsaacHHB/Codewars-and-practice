@@ -106,3 +106,9 @@ function accum(s) {
 }
 
 //Simple Fun #1: Seats in Theater
+
+function seatsInTheater(nCols, nRows, col, row) {
+  let colsBehind = nCols - col + 1;
+  let rowsBehind = nRows - row;
+  return colsBehind * rowsBehind;
+  }
