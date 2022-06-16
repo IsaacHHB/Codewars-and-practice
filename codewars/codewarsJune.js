@@ -111,4 +111,6 @@ function seatsInTheater(nCols, nRows, col, row) {
   let colsBehind = nCols - col + 1;
   let rowsBehind = nRows - row;
   return colsBehind * rowsBehind;
-  }
+}
+
+//Remove an exclamation mark from the end of a string. For a beginner kata, you can assume that the input data is always a string, no need to verify it.
