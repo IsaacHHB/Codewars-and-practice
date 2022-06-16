@@ -104,3 +104,5 @@ function accum(s) {
   }
   return result.join('-')
 }
+
+//Simple Fun #1: Seats in Theater
