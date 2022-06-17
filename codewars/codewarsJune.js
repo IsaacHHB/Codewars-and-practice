@@ -118,3 +118,5 @@ function seatsInTheater(nCols, nRows, col, row) {
 function remove (s) {
   return s[s.length-1] == '!' ? s.slice(0, s.length-1) : s; 
 }
+
+//Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value.
