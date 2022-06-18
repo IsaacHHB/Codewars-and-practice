@@ -126,3 +126,8 @@ function getChar(c) {
 }
 
 //Capitalization and Mutability
+
+function capitalizeWord(word) {
+  let upper = word[0].toUpperCase();
+  return upper + word.slice(1)
+}
