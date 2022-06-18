@@ -124,3 +124,5 @@ function remove (s) {
 function getChar(c) {
   return String.fromCharCode(c)
 }
+
+//Capitalization and Mutability
