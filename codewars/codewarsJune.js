@@ -134,3 +134,13 @@ function capitalizeWord(word) {
 
 //Exclusive "or" (xor) Logical Operator
 
+function xor(a, b) {
+  if(a === b){
+    return false
+  }else if(a || b == true){
+    return true
+  }else{
+    return false
+  }
+}
+
