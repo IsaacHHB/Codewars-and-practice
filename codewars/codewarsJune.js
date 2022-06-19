@@ -131,3 +131,6 @@ function capitalizeWord(word) {
   let upper = word[0].toUpperCase();
   return upper + word.slice(1)
 }
+
+//Exclusive "or" (xor) Logical Operator
+
