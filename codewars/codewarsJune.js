@@ -152,3 +152,8 @@ function shortcut (string) {
 
 //The Wide-Mouthed frog!
 
+function mouthSize(animal) {
+  animal = animal.toLowerCase()
+  return animal === 'alligator'?'small':'wide'
+}
+
