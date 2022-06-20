@@ -164,3 +164,5 @@ function noBoringZeros(n) {
   return +`${n}`.replace(/0*$/, "");
 }
 
+//Merge two sorted arrays into one
+
