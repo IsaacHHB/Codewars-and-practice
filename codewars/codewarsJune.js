@@ -180,3 +180,5 @@ var replaceDots = function(str) {
 
 const plural = n => n !== 1;
 
+//Dollars and Cents
+
