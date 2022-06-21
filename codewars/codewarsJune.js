@@ -176,3 +176,5 @@ var replaceDots = function(str) {
   return str.replace(/[.]/ig, '-');
 }
 
+//Plural
+
