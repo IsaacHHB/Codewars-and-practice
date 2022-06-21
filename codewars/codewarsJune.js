@@ -178,3 +178,5 @@ var replaceDots = function(str) {
 
 //Plural
 
+const plural = n => n !== 1;
+
