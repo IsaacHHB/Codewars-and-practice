@@ -172,3 +172,7 @@ function mergeArrays(arr1, arr2) {
 
 //FIXME: Replace all dots
 
+var replaceDots = function(str) {
+  return str.replace(/[.]/ig, '-');
+}
+
