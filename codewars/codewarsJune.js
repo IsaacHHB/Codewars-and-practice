@@ -206,3 +206,10 @@ returnOdd(100)
 
 //Difference of Volumes of Cuboids
 
+function findDifference(a, b) {
+  const reducer = (a,num) => a * num
+  let c = a.reduce(reducer , 1)
+  let d = b.reduce(reducer , 1)
+  return c > d ? c - d : d - c
+}
+
