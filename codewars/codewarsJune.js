@@ -194,3 +194,13 @@ function reverse(string){
 
 // return odd numbers from 1 to 100
 
+function returnOdd(x){
+  let arr = []
+  for(let i = 1; i <= x; i++){
+    if(i % 2 === 1){
+      arr.push(i)
+    }
+  }
+}
+returnOdd(100)
+
