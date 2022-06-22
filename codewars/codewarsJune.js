@@ -220,3 +220,4 @@ function hexToDec(hexString){
   return parseInt(hexString,16)
 }
 
+//Bin to Decimal
