@@ -191,3 +191,6 @@ function formatMoney(amount){
 function reverse(string){
   return string.split(' ').reverse().join(' ')
 }
+
+// return odd numbers from 1 to 100
+
