@@ -213,3 +213,4 @@ function findDifference(a, b) {
   return c > d ? c - d : d - c
 }
 
+//Hex to Decimal
