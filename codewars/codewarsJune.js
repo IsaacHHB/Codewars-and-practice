@@ -226,3 +226,5 @@ function hexToDec(hexString){
 function binToDec(bin){
   return parseInt(bin,2);
 }
+
+//Enumerable Magic #25 - Take the First N Elements
