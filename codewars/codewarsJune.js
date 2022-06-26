@@ -248,3 +248,4 @@ function buildString(...template){
   return `I like ${template.join(', ')}!`;
 }
 
+//Switch/Case - Bug Fixing #6
