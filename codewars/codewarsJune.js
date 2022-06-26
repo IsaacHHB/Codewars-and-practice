@@ -275,3 +275,5 @@ function evalObject(value){
   }
   return result;
 }
+
+//SpeedCode #2 - Array Madness
