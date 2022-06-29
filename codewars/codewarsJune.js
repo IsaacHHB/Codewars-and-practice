@@ -301,3 +301,5 @@ function preFizz(n) {
 function dutyFree(normPrice, discount, hol){
   return Math.trunc(hol/(normPrice * (discount / 100)))
 }
+
+//Training JS #2: Basic data types--Number
