@@ -10,3 +10,5 @@ function correctTail(bod, tail){
      return false
    }
  }
+
+ //Multiplication table for number
