@@ -36,4 +36,6 @@ function multiTable(number) {
     8 * ${number} = ${8*number}
     9 * ${number} = ${9*number}
     10 * ${number} = ${10*number}`
-    }
+}
+
+//String cleaning
