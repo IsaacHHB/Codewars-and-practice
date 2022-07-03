@@ -24,3 +24,16 @@ function correctTail(bod, tail){
 // 9 * 5 = 45
 // 10 * 5 = 50
 // P. S. You can use \n in string to jump to the next line. Note: newlines should be added between rows, but there should be no trailing newline at the end. If you're unsure about the format, look at the sample tests.
+
+function multiTable(number) {
+    return `1 * ${number} = ${1*number}
+    2 * ${number} = ${2*number}
+    3 * ${number} = ${3*number}
+    4 * ${number} = ${4*number}
+    5 * ${number} = ${5*number}
+    6 * ${number} = ${6*number}
+    7 * ${number} = ${7*number}
+    8 * ${number} = ${8*number}
+    9 * ${number} = ${9*number}
+    10 * ${number} = ${10*number}`
+    }
