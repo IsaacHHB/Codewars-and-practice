@@ -333,3 +333,5 @@ function equal5(){
   var b= v6  //set number value to b
   return a%b;
 }
+
+//Grasshopper - Function syntax debugging
