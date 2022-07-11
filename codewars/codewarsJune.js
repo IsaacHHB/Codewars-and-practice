@@ -368,3 +368,4 @@ function  calculateAge(p1,p2) {
 }
 
 //Training JS #4: Basic data types--Array
+//I've written five function, each function receives a parameter: arr(an array), you should code something with arr.
