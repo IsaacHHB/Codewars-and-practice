@@ -366,3 +366,5 @@ function  calculateAge(p1,p2) {
       return 'You were born this very year!';
     }
 }
+
+//Training JS #4: Basic data types--Array
