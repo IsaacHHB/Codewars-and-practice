@@ -53,3 +53,4 @@ function findShort(s){
   return Math.min(...str.map(({ length }) => length))
 }
 
+//Get the Middle Character
