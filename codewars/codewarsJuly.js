@@ -43,4 +43,6 @@ function multiTable(number) {
 
 function stringClean(s){
     return s.replace(/[1234567890]/ig, '')
-  }
+}
+
+//Shortest Word
