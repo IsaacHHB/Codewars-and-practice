@@ -79,3 +79,4 @@ function pigIt(str){
   return result.join(' ')
 }
 
+//Palindrome Strings
