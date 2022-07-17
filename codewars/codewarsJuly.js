@@ -69,3 +69,5 @@ function getMiddle(s){
   }
   return s.substring(position, position + length)
 }
+
+//Simple Pig Latin
