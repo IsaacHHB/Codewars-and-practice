@@ -94,3 +94,11 @@ function isPalindrome(line) {
 //Moving Zeros To The End
 //Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
 
+function moveZeros(arr) {
+  let catchAll= [];
+  let zeros = [];
+  for(let i = 0; i < arr.length; i++){
+    arr[i] === 0 ? zeros.push(arr[i]) : catchAll.push(arr[i])
+  }
+  return ([...catchAll,...zeros])
+}
