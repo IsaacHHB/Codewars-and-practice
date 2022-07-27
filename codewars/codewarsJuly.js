@@ -118,3 +118,4 @@ function sayHello( name, city, state ) {
 //1. Add all of the numbers
 //1+3+5+7 = 16
 //2. Divide by the number of values in the list. In this example there are 4 numbers in the list.
+//16/4 = 4
