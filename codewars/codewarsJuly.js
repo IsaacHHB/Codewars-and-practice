@@ -120,3 +120,7 @@ function sayHello( name, city, state ) {
 //2. Divide by the number of values in the list. In this example there are 4 numbers in the list.
 //16/4 = 4
 //3. The mean (or average) of this list is 4
+
+var findAverage = function (nums) {
+  return nums.reduce((c,e) => c + e) / nums.length
+}
