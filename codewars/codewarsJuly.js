@@ -124,3 +124,5 @@ function sayHello( name, city, state ) {
 var findAverage = function (nums) {
   return nums.reduce((c,e) => c + e) / nums.length
 }
+
+//Training JS #5: Basic data types--Object
