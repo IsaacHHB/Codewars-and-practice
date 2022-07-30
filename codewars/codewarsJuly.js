@@ -128,3 +128,5 @@ var findAverage = function (nums) {
 //Training JS #5: Basic data types--Object
 //In javascript, Object is one of basic data types. Define an Object can use var obj=new Object() or var obj={}
 //You can define the object attributes during initialization, like this:
+//var animal={name:"dog"}
+//you can also set/get some properties after the object definition, like this:
