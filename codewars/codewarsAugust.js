@@ -10,3 +10,5 @@ function getSum(a,b){
       return a + getSum(a+1,b)
     }
   }
+
+  //Sum of two lowest positive integers
