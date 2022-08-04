@@ -18,3 +18,5 @@ function sumTwoSmallestNumbers(numbers) {
     let res = numbers.sort((a, b) => a - b).slice(0, 2);
     return res.reduce((e, i) => e + i)
 }
+
+//Gravity Flip
