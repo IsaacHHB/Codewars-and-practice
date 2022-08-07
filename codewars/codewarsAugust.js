@@ -22,17 +22,19 @@ function sumTwoSmallestNumbers(numbers) {
 //Gravity Flip
 //There are some columns of toy cubes in the box arranged in a line. The i-th column contains a_i cubes. At first, the gravity in the box is pulling the cubes downwards. When Bob switches the gravity, it begins to pull all the cubes to a certain side of the box, d, which can be either 'L' or 'R' (left or right). Below is an example of what a box of cubes might look like before and after switching gravity.
 
-const flip=(d, a)=>{
+const flip = (d, a) => {
     return d == 'R' ? a.sort((a, b) => a - b) : a.sort((a, b) => b - a)
-  }
+}
 
 //Regular Ball Super Ball
 //Create a class Ball. Ball objects should accept one argument for "ball type" when instantiated. If no arguments are given, ball objects should instantiate with a "ball type" of "regular."
 
-var Ball = function(ballType) {
+var Ball = function (ballType) {
     if (ballType === undefined) {
-       this.ballType = "regular";
-    }else{
-      this.ballType = "super"
+        this.ballType = "regular";
+    } else {
+        this.ballType = "super"
     }
-  }
+}
+
+//Sum of odd numbers
