@@ -43,3 +43,5 @@ var Ball = function (ballType) {
 function rowSumOddNumbers(n) {
     return n * n * n
 }
+
+//Tip Calculator
