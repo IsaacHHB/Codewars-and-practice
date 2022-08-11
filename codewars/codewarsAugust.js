@@ -45,3 +45,4 @@ function rowSumOddNumbers(n) {
 }
 
 //Tip Calculator
+//Complete the function, which calculates how much you need to tip based on the total amount of the bill and the service.
