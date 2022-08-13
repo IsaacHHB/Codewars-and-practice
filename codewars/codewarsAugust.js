@@ -70,3 +70,5 @@ function calculateTip(amount, rating) {
             return "Rating not recognised"
     }
 }
+
+// L1: Bartender, drinks!
