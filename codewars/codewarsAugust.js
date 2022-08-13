@@ -72,3 +72,4 @@ function calculateTip(amount, rating) {
 }
 
 // L1: Bartender, drinks!
+//Complete the function that receives as input a string, and produces outputs according to the following table:
