@@ -129,6 +129,3 @@ function deleteNth(arr, x) {
 
 
 
-
-
-
