@@ -127,6 +127,7 @@ function deleteNth(arr, x) {
     });
 }
 
+//Is this a triangle?
 
 
 
