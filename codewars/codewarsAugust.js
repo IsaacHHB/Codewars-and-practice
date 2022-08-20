@@ -134,6 +134,8 @@ function isTriangle(a,b,c) {
     return ((sides[0] + sides[1]) > sides[2]);
 }
 
+//Multiple of index
+
 
 
 
