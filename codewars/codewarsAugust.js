@@ -137,6 +137,8 @@ function isTriangle(a,b,c) {
 //Multiple of index
 //Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
 
+multipleOfIndex = array => array.filter((e,i) => e % i == 0)
+
 
 
 
