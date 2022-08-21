@@ -129,7 +129,7 @@ function deleteNth(arr, x) {
 
 //Is this a triangle?
 //Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
-function isTriangle(a,b,c) {
+function isTriangle(a, b, c) {
     const sides = [a, b, c].sort();
     return ((sides[0] + sides[1]) > sides[2]);
 }
@@ -137,7 +137,7 @@ function isTriangle(a,b,c) {
 //Multiple of index
 //Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
 
-multipleOfIndex = array => array.filter((e,i) => e % i == 0)
+multipleOfIndex = array => array.filter((e, i) => e % i == 0)
 
 //Surface Area and Volume of a Box
 //Write a function that returns the total surface area and volume of a box as an array: [area, volume]
@@ -145,6 +145,6 @@ multipleOfIndex = array => array.filter((e,i) => e % i == 0)
 const getSize = (width, height, depth) => [
     ((width * height) + (width * depth) + (depth * height)) * 2,
     width * height * depth
-  ];
+];
 
-
+//Alan Partridge II - Apple Turnover
