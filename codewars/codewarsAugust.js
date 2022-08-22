@@ -172,3 +172,7 @@ function spEng(sentence) {
 //How many lightsabers do you own?
 //The only person who owns lightsabers is Zach, by the way. He owns 18, which is an awesome number of lightsabers. Anyone else owns 0.
 
+function howManyLightsabersDoYouOwn(name) {
+    return name === 'Zach' ? 18 : 0
+}
+
