@@ -187,4 +187,6 @@ stairsIn20 = s => 20 * s.reduce((prev1, cur1) => prev1 + cur1.reduce((prev2, cur
 nextId = (ids) => ids.sort((a, b) => a - b).reduce((a, b) => a + (a === b), 0)
 
 //Fundamentals: Return
+//Make multiple functions that will return the sum, difference, modulus, product, quotient, and the exponent respectively.
+
 
