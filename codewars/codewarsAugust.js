@@ -176,3 +176,4 @@ function howManyLightsabersDoYouOwn(name) {
     return name === 'Zach' ? 18 : 0
 }
 
+//How many stairs will Suzuki climb in 20 years?
