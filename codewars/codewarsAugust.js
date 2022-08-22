@@ -169,3 +169,4 @@ function spEng(sentence) {
     return sentence.includes('english')
 }
 
+//How many lightsabers do you own?
