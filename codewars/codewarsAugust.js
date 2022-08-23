@@ -225,3 +225,4 @@ function sumOfDifferences(arr) {
     return sum
 }
 
+//No Loops 2 - You only need one
