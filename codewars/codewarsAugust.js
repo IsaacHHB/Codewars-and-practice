@@ -213,4 +213,4 @@ function subt(a, b) {
     return a - b;
 }
 
-
+//Sum of differences in array
