@@ -253,3 +253,12 @@ fizzBuzz(100)
 //Exclamation marks series #6: Remove n exclamation marks in the sentence from left to right
 //Remove n exclamation marks in the sentence from left to right. n is positive integer.
 
+function remove(s, n) {
+    let input = s;
+    while (n) {
+        input = input.replace(/!/, "");
+        n -= 1;
+    }
+    return input;
+}
+
