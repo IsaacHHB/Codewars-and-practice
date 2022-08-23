@@ -214,3 +214,5 @@ function subt(a, b) {
 }
 
 //Sum of differences in array
+//Your task is to sum the differences between consecutive pairs in the array in descending order.
+
