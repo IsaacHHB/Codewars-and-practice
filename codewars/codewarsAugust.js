@@ -282,3 +282,4 @@ function sockMerchant(n, ar) {
 
 printArray = array => array.join(',');
 
+//Closest elevator
