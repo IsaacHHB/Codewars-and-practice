@@ -280,3 +280,5 @@ function sockMerchant(n, ar) {
 //Printing Array elements with Comma delimiters
 //Output: String with comma delimited elements of the array in th same order.
 
+printArray = array => array.join(',');
+
