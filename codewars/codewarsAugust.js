@@ -285,3 +285,5 @@ printArray = array => array.join(',');
 //Closest elevator
 //Given 2 elevators (named "left" and "right") in a building with 3 floors (numbered 0 to 2), write a function elevator accepting 3 arguments
 
+elevator = (left, right, call) => Math.abs(call - left) < Math.abs(call - right) ? 'left' : 'right';
+
