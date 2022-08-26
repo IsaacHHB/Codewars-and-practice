@@ -358,3 +358,5 @@ whatday = (num) => num == 1 ? 'Sunday' : num == 2 ? 'Monday' : num == 3 ? 'Tuesd
 //BASIC: Making Six Toast.
 //You must return the number of toast the you need to put in (or to take out). In case of 5 you can still put 1 toast in:
 
+sixToast = (num) => num > 6 || num < 6 ? Math.abs(num - 6) : 0;
+
