@@ -296,3 +296,4 @@ function validateUsr(username) {
         && (username.match(/[a-z]|_|\d/g).length === username.length);
 }
 
+//Formatting decimal places #0
