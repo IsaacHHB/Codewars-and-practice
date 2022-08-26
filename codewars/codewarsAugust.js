@@ -287,3 +287,4 @@ printArray = array => array.join(',');
 
 elevator = (left, right, call) => Math.abs(call - left) < Math.abs(call - right) ? 'left' : 'right';
 
+//Simple validation of a username with regex
