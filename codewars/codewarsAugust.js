@@ -350,3 +350,4 @@ function answer3() {
     return "yes";
 }
 
+//Return the day
