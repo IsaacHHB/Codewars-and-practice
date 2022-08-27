@@ -368,3 +368,4 @@ function remove(string) {
     return `${string}!`
 }
 
+//Get number from string
