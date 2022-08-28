@@ -376,3 +376,4 @@ function getNumberFromString(s) {
     return Number(s.match(regex).join(''))
 }
 
+//Grasshopper - Combine strings
