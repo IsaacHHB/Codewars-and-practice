@@ -404,3 +404,13 @@ createPhoneNumber = numbers => `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numb
 
 //another solution
 
+function createPhoneNumber(numbers) {
+    var format = "(xxx) xxx-xxxx";
+
+    for (var i = 0; i < numbers.length; i++) {
+        format = format.replace('x', numbers[i]);
+    }
+
+    return format;
+}
+
