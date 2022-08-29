@@ -397,3 +397,4 @@ function toCamelCase(str) {
     }).join('');
 }
 
+//Create Phone Number
