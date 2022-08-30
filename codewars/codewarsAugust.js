@@ -495,5 +495,7 @@ function solution(input, markers) {
     return comments.join('\n');
 }
 
+//Duck Duck Goose
+
 
 
