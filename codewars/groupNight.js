@@ -26,3 +26,4 @@ function countBy(x,n){
 // remove spaces from the string and then return the result str
 
 //p a string
+//r the string with str with any spaces removed
