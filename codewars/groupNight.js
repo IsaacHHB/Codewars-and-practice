@@ -27,3 +27,11 @@ function countBy(x,n){
 
 //p a string
 //r the string with str with any spaces removed
+//e "hey whats up" => "heywhatsup"
+//p
+
+
+function noSpace(str){
+    //turn to array and rejoin
+    return str.replace(/ /ig,'')
+}
