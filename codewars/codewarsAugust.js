@@ -414,3 +414,4 @@ function createPhoneNumber(numbers) {
     return format;
 }
 
+//Sum Strings as Numbers
