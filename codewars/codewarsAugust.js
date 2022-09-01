@@ -440,3 +440,6 @@ function formatDuration(seconds) {
     return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/, ' and' + '$1') : res[0]
 }
 
+//Counting Duplicates
+
+
