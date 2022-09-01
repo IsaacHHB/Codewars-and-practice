@@ -450,5 +450,17 @@ function duplicateCount(text) {
 //Replace With Alphabet Position
 //In this kata you are required to, given a string, replace every letter with its position in the alphabet. If anything in the text isn't a letter, ignore it and don't return it.
 
+function alphabetPosition(text) {
+    var positions = [];
+    for (var i = 0; i < text.length; i++) {
+        var charCode = text.charCodeAt(i);
+        if (charCode >= 97 && charCode <= 122) {
+            positions.push(charCode - 96);
+        } else if (charCode >= 65 && charCode <= 90) { // get rid of this if you don't care about capitals
+            positions.push(charCode - 64);
+        }
+    }
+    return positions.join(' ');
+}
 
 
