@@ -9,3 +9,4 @@ var capitals = function (word) {
     return caps;
 };
 
+//Regex count lowercase letters
