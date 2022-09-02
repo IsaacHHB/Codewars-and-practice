@@ -12,3 +12,18 @@ var capitals = function (word) {
 //Regex count lowercase letters
 //Your task is simply to count the total number of lowercase letters in a string.
 
+function lowercaseCount(inputString) {
+    let count = 0;
+
+    // loop over every char
+    for (const char of inputString) {
+        // check if it is lowercase
+        if (char.match(/[a-z]/)) {
+            // if yes, increase count
+            count += 1;
+        }
+    }
+
+    return count;
+}
+
