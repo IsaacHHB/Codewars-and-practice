@@ -27,3 +27,4 @@ function lowercaseCount(inputString) {
     return count;
 }
 
+//Define a card suit
