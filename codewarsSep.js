@@ -42,3 +42,4 @@ function defineSuit(card) {
     }
 }
 
+//Capitalize first letter of a string
