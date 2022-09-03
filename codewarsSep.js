@@ -54,3 +54,4 @@ String.prototype.capitalize = function () {
     return String.fromCharCode(code) + this.slice(1)
 }
 
+//Remove First and Last Character Part Two
