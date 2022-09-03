@@ -59,3 +59,4 @@ String.prototype.capitalize = function () {
 
 array = arr => arr.split(",").slice(1, -1).join(" ") || null;
 
+//Training JS #10: loop statement --for
