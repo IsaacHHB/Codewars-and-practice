@@ -44,3 +44,5 @@ function defineSuit(card) {
 
 //Capitalize first letter of a string
 //Write a function capitalize() which capitalizes the first letter (if any) of the given string.
+//JavaScript / CoffeeScript: Extend the String prototype with a method capitalize() so you can call it on a string like so: "string".capitalize(). Learn about inheritance and the prototype chain. Furthermore, the built-in string methods toUpperCase() and toLowerCase() are disabled for this Kata.
+
