@@ -43,3 +43,4 @@ function defineSuit(card) {
 }
 
 //Capitalize first letter of a string
+//Write a function capitalize() which capitalizes the first letter (if any) of the given string.
