@@ -80,3 +80,4 @@ function removeUrlAnchor(url) {
     return index === -1 ? url : url.slice(0, index);
 }
 
+//Is there a vowel in there?
