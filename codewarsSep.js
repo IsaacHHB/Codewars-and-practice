@@ -71,3 +71,4 @@ function pickIt(arr) {
     return [odd, even];
 }
 
+//Remove anchor from URL
