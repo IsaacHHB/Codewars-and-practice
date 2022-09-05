@@ -90,3 +90,5 @@ const isVow = a =>
         ? String.fromCharCode(charCode)
         : charCode
   )
+
+  //Contamination #1 -String-
