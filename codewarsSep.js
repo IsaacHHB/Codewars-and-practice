@@ -97,3 +97,5 @@ const isVow = a =>
 function contamination(text, char) {
     return char.repeat(text.length)
 }
+
+//Template Strings
