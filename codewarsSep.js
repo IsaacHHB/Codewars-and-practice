@@ -84,11 +84,12 @@ function removeUrlAnchor(url) {
 //Given an array of numbers, check if any of the numbers are the character codes for lower case vowels (a, e, i, o, u). If they are, change the array value to a string of that vowel. Return the resulting array.
 
 const isVow = a =>
-  a.map(
-    charCode =>
-      /[aeiou]/.test(String.fromCharCode(charCode))
-        ? String.fromCharCode(charCode)
-        : charCode
-  )
+    a.map(
+        charCode =>
+            /[aeiou]/.test(String.fromCharCode(charCode))
+                ? String.fromCharCode(charCode)
+                : charCode
+    )
 
-  //Contamination #1 -String-
+//Contamination #1 -String-
+//An AI has infected a text with a character!! This text is now fully mutated to this character. If the text or the character are empty, return an empty string. There will never be a case when both are empty as nothing is going on!! Note: The character is a string of length 1 or an empty string.
