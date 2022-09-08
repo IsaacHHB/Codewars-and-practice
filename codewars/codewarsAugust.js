@@ -500,4 +500,6 @@ function solution(input, markers) {
 
 duckDuckGoose = (players, goose) => players[(goose - 1) % players.length].name
 
+//pick a set of first elements
+
 
