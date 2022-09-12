@@ -511,4 +511,6 @@ function first(arr, n = 1) {
     }
 }
 
+//Odd or Even?
+
 
