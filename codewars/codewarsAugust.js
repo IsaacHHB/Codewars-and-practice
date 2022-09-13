@@ -526,3 +526,5 @@ function oddOrEven(array) {
         return 'odd'
     }
 }
+
+//Remove the minimum
