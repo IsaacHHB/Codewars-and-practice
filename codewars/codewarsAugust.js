@@ -535,3 +535,5 @@ const removeSmallest = (numbers) => {
     result.splice(numbers.indexOf(Math.min(...numbers)), 1);
     return result;
 };
+
+//The highest profit wins!
