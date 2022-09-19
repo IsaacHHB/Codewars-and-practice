@@ -570,3 +570,5 @@ const binaryArrayToNumber = arr => {
 function sortByLength(array) {
     return array.sort((a, b) => a.length - b.length);
 };
+
+//Find the odd int
