@@ -563,3 +563,5 @@ const binaryArrayToNumber = arr => {
     const binaryString = arr.join("");
     return parseInt(binaryString, 2);
 };
+
+//Sort array by string length
