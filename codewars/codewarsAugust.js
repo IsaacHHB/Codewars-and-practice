@@ -588,3 +588,5 @@ function findOdd(A) {
         }
     }
 }
+
+//Enumerable Magic #1 - True for All?
