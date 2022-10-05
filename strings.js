@@ -1,4 +1,14 @@
 // charAt
+// What is does:
+
+// How it works:
+
+// Time complexity:
+
+// Examples
+
+
+//--------------------------------------------------------------------------------------------------
 // charCodeAt
 // concat
 // includes
