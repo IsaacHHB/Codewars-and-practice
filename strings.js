@@ -66,24 +66,37 @@ let text4 = "Sample Text!"
 //! indexOf
 //* What is does: takes in the string as an arg and searches the calling string for an occurrence of the search string. Returns the index value of the first occurrence. Can take a second, optional arg to start at specific index within the calling string.
 
-//* How it works:
+//* How it works: Search each character in the string starting from the position arg if provided, and return each candidate value that matches the search string, and if a full match is found, return the index value of the first letter of the first occurence
 
 //* Time complexity:
 
 //* Examples
-let text5 = "Sample Text!"
+let text5 = "Sample Text! Sample this Text"
+// console.log(1, text5.indexOf('Sample'))
+// console.log(2, text5.indexOf('sample'))
+// console.log(3, text5.indexOf('T'))
+// console.log(4, text5.indexOf(''))
+// console.log(5, text5.indexOf(' '))
+// console.log(4, text5.indexOf('T',10))
+
 
 
 //?--------------------------------------------------------------------------------------------------
 //! match
-//* What is does:
+//* What is does: Takes a regular expression as an arg and matches it against the calling string. Returns an array of all matching values.
 
-//* How it works:
+//* How it works: Calls RegExp.prototype[@@match](), creates an array and returns each mathcing string as a string within the array.
 
 //* Time complexity:
 
 //* Examples
 let text6 = "Sample Text!"
+console.log("😄".match(/(?:)/g)); // [ '', '', '' ]
+console.log("😄".match(/(?:)/gu)); // [ '', '' ]
+console.log("".match(/(?:)/gu)); // [ '', '' ]
+console.log(5, text6.match(/[A-Z]/g))
+console.log(5, text6.match(/[a-z]/g))
+
 
 
 //?--------------------------------------------------------------------------------------------------
