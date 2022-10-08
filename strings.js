@@ -51,22 +51,27 @@
 //! includes
 //* What is does: takes in a string as an arg and checks to see if the calling string contains the arg and returns a boolean. The method is case-sensitive. Alse has an optional arg for the position at which to begin the search.
 
-//* How it works:
+//* How it works: Searches each character from the starting index value(0 if not specified in the optional arg), and returns candidates that match the input search value. If all returned candidates match the input search vvalue in the same order, then returns true, else false
 
 //* Time complexity:
 
 //* Examples
 let text4 = "Sample Text!"
+// console.log(1, text4.includes('Sample'))
+// console.log(2, text4.includes('sample'))
+// console.log(3, text4.includes('T'))
+// console.log(4, text4.includes('!'))
 
 //?--------------------------------------------------------------------------------------------------
 //! indexOf
-//* What is does:
+//* What is does: takes in the string as an arg and searches the calling string for an occurrence of the search string. Returns the index value of the first occurrence. Can take a second, optional arg to start at specific index within the calling string.
 
 //* How it works:
 
 //* Time complexity:
 
 //* Examples
+let text5 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -78,6 +83,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text6 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -89,6 +95,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text7 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -100,6 +107,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text8 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -111,6 +119,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text9 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -122,6 +131,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text10 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -133,6 +143,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text11 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -144,6 +155,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text12 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -155,6 +167,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text13 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -166,6 +179,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text14 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
@@ -177,6 +191,7 @@ let text4 = "Sample Text!"
 //* Time complexity:
 
 //* Examples
+let text15 = "Sample Text!"
 
 
 //?--------------------------------------------------------------------------------------------------
