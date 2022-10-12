@@ -52,3 +52,4 @@ function add(a, b){
 
 solution = (str, ending) => str.endsWith(ending)
 
+//Palindrome
