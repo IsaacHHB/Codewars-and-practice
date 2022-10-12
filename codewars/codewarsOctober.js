@@ -55,3 +55,9 @@ solution = (str, ending) => str.endsWith(ending)
 //Palindrome
 //complete a function that takes in a variable that returns true if it is a palindrome and false if not
 
+function palindrome(a) {
+    let b = a.split('').reverse().join('')
+    return a === b
+
+}
+console.log(palindrome('leonnoe'))
