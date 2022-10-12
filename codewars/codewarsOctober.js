@@ -46,3 +46,5 @@ class Dinglemouse {
 function add(a, b){
 	return a == b
 }
+
+//String ends with?
