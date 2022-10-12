@@ -60,4 +60,3 @@ function palindrome(a) {
     return a === b
 
 }
-console.log(palindrome('leonnoe'))
