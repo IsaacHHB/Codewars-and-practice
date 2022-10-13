@@ -60,3 +60,5 @@ function palindrome(a) {
     return a === b
 
 }
+
+//Reverse words
