@@ -43,8 +43,8 @@ class Dinglemouse {
 //Simple Comparison?
 //Write a function that will compare two values, one will be a number and one will be a string. Return true if they are the same character (regardless of their different data types) and return false if they are not. To make this challange harder and to promp the challenger to read up about coercion I have disabled some of the built in methods including .toString(), .join(), .split(), parseInt and .Number().
 
-function add(a, b){
-	return a == b
+function add(a, b) {
+    return a == b
 }
 
 //String ends with?
@@ -67,16 +67,16 @@ function palindrome(a) {
 function reverseWords(str) {
     str = str.split(' ').reverse().join(' ')
     return str.split('').reverse().join('')
-  }
+}
 
 //Two Sum
 //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 
-var twoSum = function(nums, target) {
-    for(let i = 0; i < nums.length; i++){
-        for(let j = 0; j < nums.length; j++){
-            if(nums[i] + nums[j] === target && i !== j){
-                return [i,j]
+var twoSum = function (nums, target) {
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = 0; j < nums.length; j++) {
+            if (nums[i] + nums[j] === target && i !== j) {
+                return [i, j]
             }
         }
     }
@@ -85,6 +85,6 @@ var twoSum = function(nums, target) {
 //Extract the domain name from a URL
 //Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. 
 
-function domainName(url){
+function domainName(url) {
     return url.replace('https://', '').replace('http://', '').replace('www.', '').split('.')[0];
-  }
+}
