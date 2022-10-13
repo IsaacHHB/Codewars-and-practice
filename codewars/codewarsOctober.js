@@ -82,3 +82,4 @@ var twoSum = function(nums, target) {
     }
 };
 
+//Extract the domain name from a URL
