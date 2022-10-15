@@ -21,4 +21,3 @@ test('capitalizes the first letter of each word in mixed cased sentences', () =>
     'I Would Love To Speak At Jsconf.'
   )
 })
-
