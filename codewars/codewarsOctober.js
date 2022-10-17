@@ -122,10 +122,10 @@ const romanToInt = (s) => {
 //Sum of Multiples
 //Find the sum of all multiples of n below m Keep in Mind n and m are natural numbers (positive integers) m is excluded from the multiples
 
-function sumMul(n,m){
+function sumMul(n, m) {
     let r = 0;
-    for(let i = 1; i*n < m; i++){
-      r+=i*n
+    for (let i = 1; i * n < m; i++) {
+        r += i * n
     }
     return r > 0 ? r : 'INVALID'
-  }
+}
