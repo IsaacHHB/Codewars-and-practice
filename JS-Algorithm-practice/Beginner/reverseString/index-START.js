@@ -4,15 +4,17 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 */
 
 
-
+// using built in methods
 function reverseString(text) {
     return text.split('').reverse().join('')
 }
 
+//using the spread operator
 function reverseString(text) {
     return [...text].reverse().join('')
 }
 
+//using a for loop
 function reverseString(text) {
     let result = ''
 
@@ -23,6 +25,7 @@ function reverseString(text) {
     return result
 }
 
+//using a for of loop
 function reverseString(text) {
     let result = ''
 
@@ -32,6 +35,9 @@ function reverseString(text) {
 
     return result;
 }
+
+//using .substr() the recursive way
+
 
 
 
