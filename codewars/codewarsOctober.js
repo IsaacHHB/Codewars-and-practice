@@ -136,10 +136,10 @@ function sumMul(n, m) {
 
 function getAverage(arr) {
     let leng = arr.length
-    arr = arr.reduce((a,c) => a + c, 0) / leng
+    arr = arr.reduce((a, c) => a + c, 0) / leng
     return Math.floor(arr)
 }
 
-console.log(getAverage([2,2,2,2]),2)
-console.log(getAverage([1,2,3,4,5,]),3);
-console.log(getAverage([1,1,1,1,1,1,1,2]),1)
+console.log(getAverage([2, 2, 2, 2]), 2)
+console.log(getAverage([1, 2, 3, 4, 5,]), 3);
+console.log(getAverage([1, 1, 1, 1, 1, 1, 1, 2]), 1)
