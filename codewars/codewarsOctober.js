@@ -129,3 +129,5 @@ function sumMul(n, m) {
     }
     return r > 0 ? r : 'INVALID'
 }
+
+//average of grades
