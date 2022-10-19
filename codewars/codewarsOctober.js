@@ -142,5 +142,5 @@ function getAverage(arr) {
 
 
 
-
+console.log(getAverage([2,2,2,2]),2)
 
