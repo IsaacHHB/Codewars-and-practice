@@ -170,6 +170,6 @@ console.log(repeats([16, 0, 11, 4, 8, 16, 0, 11]), 12)
 console.log(repeats([5, 17, 18, 11, 13, 18, 11, 13]), 22)
 console.log(repeats([5, 10, 19, 13, 10, 13]), 24)
 
-
+//Man in the west
 
 
