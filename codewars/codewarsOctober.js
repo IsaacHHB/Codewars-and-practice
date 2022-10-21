@@ -145,7 +145,7 @@ function getAverage(arr) {
 // console.log(getAverage([1, 1, 1, 1, 1, 1, 1, 2]), 1)
 
 //Grasshopper - Variable Assignment Debug
-
+//Fix the variables assigments so that this code stores the string 'devLab' in the variable name.
 
 
 
