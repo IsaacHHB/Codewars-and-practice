@@ -160,11 +160,11 @@ function repeats(arr) {
     return arr
         .filter(x => arr.indexOf(x) === arr.lastIndexOf(x))
         //  then reduce to get the sum of the two numbers
-        .reduce((a, b) => a + b);
+        .reduce((a, b) => a + b, 0);
 }
 
 
-console.log(repeats([4, 5, 7, 5, 4, 8]), 15)
+// console.log(repeats([4, 5, 7, 5, 4, 8]), 15)
 console.log(repeats([9, 10, 19, 13, 19, 13]), 19)
 console.log(repeats([16, 0, 11, 4, 8, 16, 0, 11]), 12)
 console.log(repeats([5, 17, 18, 11, 13, 18, 11, 13]), 22)
@@ -174,3 +174,14 @@ console.log(repeats([5, 10, 19, 13, 10, 13]), 24)
 //A western man is trying to find gold in a river. To do that, he passes a bucket through the river's soil and then checks if it contains any gold. However, he could be more productive if he wrote an algorithm to do the job for him. So, you need to check if there is gold in the bucket, and if so, return True/true. If not, return False/false.
 
 const checkTheBucket = bucket => bucket.includes('gold')
+
+
+//Given an array of digital numbers, return a new array of length number containing the last even numbers from the original array (in the same order). The original array will be not empty and will contain at least "number" even numbers.
+//For example:
+
+
+
+
+// ([1, 2, 3, 4, 5, 6, 7, 8, 9], 3) => [4, 6, 8]
+// ([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2) => [-8, 26]
+// ([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6]
