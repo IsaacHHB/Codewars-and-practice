@@ -165,7 +165,7 @@ function repeats(arr) {
 
 
 console.log(repeats([4, 5, 7, 5, 4, 8]), 15)
-
+console.log(repeats([9, 10, 19, 13, 19, 13]), 19)
 
 
 
