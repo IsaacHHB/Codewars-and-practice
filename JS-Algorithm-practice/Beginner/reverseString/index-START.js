@@ -50,7 +50,10 @@ function reverseString(text) {
     return text.split('').reduce((acc, char) => char + acc, '')
 }
 
-
+//reduce but using ES6 spread operator
+function reverseString(text) {
+    return [...text].reduce((acc, char) => char + acc, '')
+}
 
 
 
