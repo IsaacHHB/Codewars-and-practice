@@ -199,3 +199,4 @@ function evenNumbers(array, number) {
 // ([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6]
 
 //Are arrow functions odd?
+//Time to test your basic knowledge in functions! Return the odds from a list:
