@@ -230,6 +230,6 @@ function friend(friends) {
     return friends.filter(e => e.length === 4)
 }
 
-
+//Multiples of 3 or 5
 
 
