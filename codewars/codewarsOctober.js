@@ -242,3 +242,5 @@ function solution(number) {
     }
     return arr.reduce((a, c) => a + c, 0)
 }
+
+//You're a square!
