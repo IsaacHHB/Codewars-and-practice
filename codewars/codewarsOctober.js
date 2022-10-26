@@ -273,6 +273,6 @@ function nthSmallest(arr, pos){
   }
 
 
-
+// console.log(nthSmallest([3,1,2] ,2)) //==> return (2) 
 
 
