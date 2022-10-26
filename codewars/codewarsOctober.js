@@ -249,3 +249,23 @@ function solution(number) {
 var isSquare = function (n) {
     return Math.sqrt(n) % 1 === 0;
 }
+
+//Return the number of unique arrays that can be formed by picking exactly one element from each subarray.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
