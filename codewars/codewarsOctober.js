@@ -254,7 +254,12 @@ var isSquare = function (n) {
 //For example: solve([[1,2],[4],[5,6]]) = 4, because it results in only 4 possibilites. They are [1,4,5],[1,4,6],[2,4,5],[2,4,6].
 //Make sure that you don't count duplicates; for example solve([[1,2],[4,4],[5,6,6]]) = 4, since the extra outcomes are just duplicates.
 
-
+function solve(arr) {
+    //set -> uni values
+    //map [1,2],[4],[5,6] -> 2, 1, 2
+    //reduce -> 2*1*2
+    return arr.map(sa => new Set(sa).size).reduce((a, c) => a * c, 1)
+}
 
 
 
