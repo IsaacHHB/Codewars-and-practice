@@ -261,7 +261,7 @@ function solve(arr) {
     return arr.map(sa => new Set(sa).size).reduce((a, c) => a * c, 1)
 }
 
-
+// console.log(solve([[1, 2], [4], [5, 6]]), 4)
 
 
 
