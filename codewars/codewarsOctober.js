@@ -266,7 +266,7 @@ function solve(arr) {
 // console.log(solve([[1, 2], [3, 4], [5, 6]]), 8)
 // console.log(solve([[1, 2, 3], [3, 4, 6, 6, 7], [8, 9, 10, 12, 5, 6]]), 72)
 
-
+//Given an array of integers , Find the Nth smallest element in this array of integers. //Notes Array/list size is at least 3 . Array/list's numbers could be a mixture of positives , negatives and zeros . Repetition in array/list's numbers could occur , so don't Remove Duplications .
 
 
 
