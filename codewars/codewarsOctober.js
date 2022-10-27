@@ -287,5 +287,5 @@ function duplicateEncode(word){
   }
 
 // "din"      =>  "((("
-
+// "recede"   =>  "()()()"
 
