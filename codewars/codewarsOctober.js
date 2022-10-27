@@ -289,3 +289,4 @@ function duplicateEncode(word){
 // "din"      =>  "((("
 // "recede"   =>  "()()()"
 // "Success"  =>  ")())())"
+// "(( @"     =>  "))((" 
