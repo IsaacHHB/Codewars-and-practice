@@ -286,6 +286,6 @@ function duplicateEncode(word){
     return w.map(x => w.indexOf(x) == w.lastIndexOf(x)? '(' : ')').join('')
   }
 
-
+// "din"      =>  "((("
 
 
