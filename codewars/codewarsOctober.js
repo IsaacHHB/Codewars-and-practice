@@ -268,9 +268,9 @@ function solve(arr) {
 
 //Given an array of integers , Find the Nth smallest element in this array of integers. //Notes Array/list size is at least 3 . Array/list's numbers could be a mixture of positives , negatives and zeros . Repetition in array/list's numbers could occur , so don't Remove Duplications .
 
-function nthSmallest(arr, pos){
-    return arr.sort((a,b) => a - b)[pos-1]
-  }
+function nthSmallest(arr, pos) {
+    return arr.sort((a, b) => a - b)[pos - 1]
+}
 
 
 // console.log(nthSmallest([3,1,2] ,2)) //==> return (2) 
@@ -281,10 +281,10 @@ function nthSmallest(arr, pos){
 //Duplicate Encoder
 //The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
-function duplicateEncode(word){
+function duplicateEncode(word) {
     let w = word.toLowerCase().split('')
-    return w.map(x => w.indexOf(x) == w.lastIndexOf(x)? '(' : ')').join('')
-  }
+    return w.map(x => w.indexOf(x) == w.lastIndexOf(x) ? '(' : ')').join('')
+}
 
 // "din"      =>  "((("
 // "recede"   =>  "()()()"
@@ -297,10 +297,10 @@ function duplicateEncode(word){
 function digitalRoot(n) {
     let result = 0;
     String(n).split('').map(num => {
-      result += Number(num);
+        result += Number(num);
     });
     return result >= 10 ? digitalRoot(result) : result;
-  }
+}
 
 // 16  -->  1 + 6 = 7
 // 942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
@@ -310,11 +310,11 @@ function digitalRoot(n) {
 //Unique In Order
 //Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
 
-function uniqueInOrder(iterable){
+function uniqueInOrder(iterable) {
     let strArr = Array.isArray(iterable) ? iterable : iterable.split('');
     let unique = strArr.filter((letter, i) => {
-      return strArr[i] != strArr[i+1];
+        return strArr[i] != strArr[i + 1];
     })
-  
+
     return unique;
-  }
+}
