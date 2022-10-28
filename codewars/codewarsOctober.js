@@ -290,3 +290,17 @@ function duplicateEncode(word){
 // "recede"   =>  "()()()"
 // "Success"  =>  ")())())"
 // "(( @"     =>  "))((" 
+
+//Sum of Digits / Digital Root
+
+
+
+
+
+
+
+
+
+
+
+
