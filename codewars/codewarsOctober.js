@@ -302,7 +302,7 @@ function digitalRoot(n) {
     return result >= 10 ? digitalRoot(result) : result;
   }
 
-
+// 16  -->  1 + 6 = 7
 
 
 
