@@ -324,5 +324,5 @@ function uniqueInOrder(iterable) {
 
 
 
-"ATTGC" --> "TAACG"
-"GTAT" --> "CATA"
+// "ATTGC" --> "TAACG"
+// "GTAT" --> "CATA"
