@@ -353,4 +353,6 @@ function reverseCapitals(str) {
 
 }
 
+//same problem using map
+
 
