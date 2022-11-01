@@ -355,4 +355,13 @@ function reverseCapitals(str) {
 
 //same problem using map
 
+function reverseCapitals(str) {
+    return str.split('')
+    .map((e,i,a) => e === e.toLowerCase() ? e.toUpperCase() : e.toLowerCase())
+    .join('')
+    .split(' ')
+    .reverse()
+    .join(' ')
+}
+
 
