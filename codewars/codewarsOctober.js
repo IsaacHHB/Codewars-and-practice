@@ -364,4 +364,6 @@ function reverseCapitals(str) {
     .join(' ')
 }
 
+console.log(reverseCapitals('Example Input'), "iNPUT eXAMPLE")
+
 
