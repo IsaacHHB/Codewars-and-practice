@@ -365,5 +365,5 @@ function reverseCapitals(str) {
 }
 
 // console.log(reverseCapitals('Example Input'), "iNPUT eXAMPLE")
-console.log(reverseCapitals('Jim Jimmerson'), "jIMMSERSON jIM")
+// console.log(reverseCapitals('Jim Jimmerson'), "jIMMSERSON jIM")
 console.log(reverseCapitals('tHe WORd'), "worD ThE")
