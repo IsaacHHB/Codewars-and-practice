@@ -19,3 +19,5 @@ var countBits = function (n) {
 
     return result;
 };
+
+//Isograms
