@@ -50,3 +50,7 @@ function isValidWalk(walk) {
 
     return walk.length == 10 && ns === 0 && we === 0;
 }
+
+console.log(isValidWalk(['n','s','n','s','n','s','n','s','n','s']), 'true');
+
+
