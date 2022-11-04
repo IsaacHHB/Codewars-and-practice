@@ -35,3 +35,6 @@ function isIsogram(str) {
     }
     return true;
 }
+
+//Take a Ten Minutes Walk
+//
