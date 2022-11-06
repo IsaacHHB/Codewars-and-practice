@@ -66,7 +66,7 @@ function findDeletedNumber(arr, mixArr) {
     return arr1 - arr2
   }
 
-
+// findDeletedNumber([1,2,3,4,5], [3,4,1,5]), 2, 'Deletion')
 
 
 
