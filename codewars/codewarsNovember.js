@@ -55,3 +55,23 @@ function isValidWalk(walk) {
 //console.log(isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']), 'false');
 //console.log(isValidWalk(['w']), 'false');
 //console.log(isValidWalk(['n','n','n','s','n','s','n','s','n','s']), 'false');
+
+//An ordered sequence of numbers from 1 to N is given. One number might have deleted from it, then the remaining numbers were mixed. Find the number that was deleted. Example:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
