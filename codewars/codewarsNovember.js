@@ -71,7 +71,7 @@ function findDeletedNumber(arr, mixArr) {
 // findDeletedNumber([1,2,3,4,5,6,7,8,9], [5,7,6,9,4,8,1,2,3]), 0, 'No deletion')
 
 //Find the unique number
-
+//There is an array with some numbers. All numbers are equal except for one. Try to find it! It’s guaranteed that array contains at least 3 numbers. The tests contain some very huge arrays, so think about performance.
 
 
 
