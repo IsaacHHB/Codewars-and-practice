@@ -61,10 +61,10 @@ function isValidWalk(walk) {
 //The starting array sequence is [1,2,3,4,5,6,7,8,9] The mixed array with one deleted number is [3,2,4,6,7,8,1,9] Your function should return the int 5. If no number was deleted from the array and no difference with it, your function should return the int 0.Note: N may be 1 or less (in the latter case, the first array will be []).
 
 function findDeletedNumber(arr, mixArr) {
-    let arr1 = arr.reduce((a,c) => a + c, 0)
-    let arr2 = mixArr.reduce((a,c) => a + c, 0)
+    let arr1 = arr.reduce((a, c) => a + c, 0)
+    let arr2 = mixArr.reduce((a, c) => a + c, 0)
     return arr1 - arr2
-  }
+}
 
 // findDeletedNumber([1,2,3,4,5], [3,4,1,5]), 2, 'Deletion')
 // findDeletedNumber([1,2,3,4,5,6,7,8,9], [1,9,7,4,6,2,3,8]), 5, 'Deletion')
@@ -74,9 +74,9 @@ function findDeletedNumber(arr, mixArr) {
 //There is an array with some numbers. All numbers are equal except for one. Try to find it! It’s guaranteed that array contains at least 3 numbers. The tests contain some very huge arrays, so think about performance.
 
 function findUniq(arr) {
-    arr = arr.filter((l,i,a) => a.indexOf(l) === a.lastIndexOf(l)).join('')
+    arr = arr.filter((l, i, a) => a.indexOf(l) === a.lastIndexOf(l)).join('')
     return +arr
-  }
+}
 
 //findUniq([ 1, 0, 0 ]), 1);
 //findUniq([ 0, 1, 0 ]), 1);
