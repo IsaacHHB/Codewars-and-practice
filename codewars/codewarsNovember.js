@@ -80,6 +80,6 @@ function findUniq(arr) {
 
 //findUniq([ 1, 0, 0 ]), 1);
 //findUniq([ 0, 1, 0 ]), 1);
-
+//findUniq([ 0, 0, 1 ]), 1);
 
 
