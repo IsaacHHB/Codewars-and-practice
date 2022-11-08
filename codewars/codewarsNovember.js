@@ -78,7 +78,7 @@ function findUniq(arr) {
     return +arr
   }
 
-
+//findUniq([ 1, 0, 0 ]), 1);
 
 
 
