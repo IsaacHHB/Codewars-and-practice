@@ -84,3 +84,5 @@ function findUniq(arr) {
 //findUniq([ 1, 1, 1, 2, 1, 1 ]), 2);
 //findUniq([ 1, 1, 2, 1, 1 ]), 2);
 //findUniq([ 3, 10, 3, 3, 3 ]), 10);
+
+//Detect Pangram
