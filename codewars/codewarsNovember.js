@@ -113,4 +113,4 @@ function persistence(n) {
 
 //strictEqual(persistence(39), 3);
 //strictEqual(persistence(4), 0);
-
+//strictEqual(persistence(25), 2);
