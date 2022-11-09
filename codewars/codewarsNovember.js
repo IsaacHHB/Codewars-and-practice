@@ -110,3 +110,7 @@ function persistence(n) {
     }
     return count
 }
+
+//strictEqual(persistence(39), 3);
+
+
