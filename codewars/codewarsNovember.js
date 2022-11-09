@@ -112,5 +112,5 @@ function persistence(n) {
 }
 
 //strictEqual(persistence(39), 3);
-
+//strictEqual(persistence(4), 0);
 
