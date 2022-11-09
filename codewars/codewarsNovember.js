@@ -103,10 +103,10 @@ function isPangram(string) {
 //Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
 
 function persistence(n) {
-    let count = 0 
-    while(n.toString().length > 1){
-      n = n.toString().split('').reduce((a,e) => a *= +e, 1)
-      count++
+    let count = 0
+    while (n.toString().length > 1) {
+        n = n.toString().split('').reduce((a, e) => a *= +e, 1)
+        count++
     }
-   return count
- }
+    return count
+}
