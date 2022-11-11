@@ -124,5 +124,5 @@ function arrayDiff(a, b) {
 
 
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
-
+// arrayDiff([], [4,5]), [], "a was [], b was [4,5]"
 
