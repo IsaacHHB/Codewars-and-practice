@@ -129,3 +129,4 @@ function arrayDiff(a, b) {
 // arrayDiff([1,8,2], []), [1,8,2], "a was [1,8,2], b was []"
 
 //Sort the odd
+//You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
