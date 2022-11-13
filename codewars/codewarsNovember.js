@@ -148,11 +148,5 @@ function gimme(triplet) {
     return triplet.indexOf(mid)
 }
 
-const strictEqual = require('chai').assert.strictEqual;
-
-function doTest (triplet, expected) {
-	const actual = gimme(triplet);
-	strictEqual(actual, expected, `for [${triplet}], expected ${expected} but got ${actual}`);
-}
 
 console.log(doTest([2, 3, 1]), 0);
