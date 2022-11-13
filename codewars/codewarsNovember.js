@@ -150,3 +150,4 @@ function gimme(triplet) {
 
 
 console.log(doTest([2, 3, 1]), 0);
+console.log(doTest([5, 10, 14]), 1);
