@@ -154,3 +154,4 @@ console.log(doTest([5, 10, 14]), 1);
 console.log(doTest([2.1, 3.2, 1.4]), 0);
 console.log(doTest([5.9, 10.4, 14.2]), 1);
 console.log(doTest([-2, -3, -1], 0));
+console.log(doTest([-5, -10, -14]), 1);
