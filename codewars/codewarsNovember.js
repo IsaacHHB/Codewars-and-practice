@@ -150,6 +150,8 @@ function gimme(triplet) {
 
 //Reducing the problem down into one line
 
+const gimme = triplet => triplet.indexOf([...triplet].sort((a,b) => a - b)[1])
+
 //console.log(doTest([2, 3, 1]), 0);
 //console.log(doTest([5, 10, 14]), 1);
 //console.log(doTest([2.1, 3.2, 1.4]), 0);
