@@ -156,4 +156,4 @@ function gimme(triplet) {
 //console.log(doTest([-2, -3, -1], 0));
 //console.log(doTest([-5, -10, -14]), 1);
 //console.log(doTest([-2, -3.2, 1]), 0);
-console.log(doTest([-5.2, -10.6, 14]), 0);
+//console.log(doTest([-5.2, -10.6, 14]), 0);
