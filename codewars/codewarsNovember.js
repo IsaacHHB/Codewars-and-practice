@@ -172,3 +172,4 @@ function averageLength(arr) {
 //averageLength(['u', 'y']), ['u', 'y']);
 //averageLength(['aa', 'bbb', 'cccc']), ['aaa', 'bbb', 'ccc']);
 //averageLength(['aa', 'bb', 'ddd', 'eee']), ['aaa', 'bbb', 'ddd', 'eee']);
+
