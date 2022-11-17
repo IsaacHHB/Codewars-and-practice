@@ -169,6 +169,6 @@ function averageLength(arr) {
     return arr.map(str => str[0].repeat(avgLength))
 }
 
-averageLength(['u', 'y']), ['u', 'y']);
+//averageLength(['u', 'y']), ['u', 'y']);
 averageLength(['aa', 'bbb', 'cccc']), ['aaa', 'bbb', 'ccc']);
 averageLength(['aa', 'bb', 'ddd', 'eee']), ['aaa', 'bbb', 'ddd', 'eee']);
