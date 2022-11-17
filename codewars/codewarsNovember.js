@@ -162,5 +162,6 @@ const gimme = triplet => triplet.indexOf([...triplet].sort((a,b) => a - b)[1])
 //console.log(doTest([-5.2, -10.6, 14]), 0);
 
 //The average length
+//Given an array of strings of the same letter type. Return a new array, which will differ in that the length of each element is equal to the average length of the elements of the previous array.
 
 
