@@ -150,7 +150,7 @@ function gimme(triplet) {
 
 //Reducing the problem down into one line
 
-const gimme = triplet => triplet.indexOf([...triplet].sort((a,b) => a - b)[1])
+const gimme = triplet => triplet.indexOf([...triplet].sort((a, b) => a - b)[1])
 
 //console.log(doTest([2, 3, 1]), 0);
 //console.log(doTest([5, 10, 14]), 1);
@@ -164,8 +164,8 @@ const gimme = triplet => triplet.indexOf([...triplet].sort((a,b) => a - b)[1])
 //The average length
 //Given an array of strings of the same letter type. Return a new array, which will differ in that the length of each element is equal to the average length of the elements of the previous array.
 
-function averageLength(arr) { 
+function averageLength(arr) {
     const avgLength = Math.round(arr.join('').length / arr.length)
     return arr.map(str => str[0].repeat(avgLength))
-  }
+}
 
