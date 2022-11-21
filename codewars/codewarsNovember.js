@@ -174,3 +174,4 @@ function averageLength(arr) {
 //averageLength(['aa', 'bb', 'ddd', 'eee']), ['aaa', 'bbb', 'ddd', 'eee']);
 
 //Remove consecutive duplicate words
+//Your task is to remove all consecutive duplicate words from a string, leaving only first words entries.
