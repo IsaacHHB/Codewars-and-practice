@@ -198,5 +198,5 @@ function solution(string) {
     return result;
 }
 
-console.log(solution(('camelCasing'), 'camel Casing'))
-console.log(solution(('camelCasingTest'), 'camel Casing Test'))
+//console.log(solution(('camelCasing'), 'camel Casing'))
+//console.log(solution(('camelCasingTest'), 'camel Casing Test'))
