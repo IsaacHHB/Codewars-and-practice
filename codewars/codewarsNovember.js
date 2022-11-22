@@ -186,14 +186,14 @@ const removeConsecutiveDuplicates = s => s.split(' ').filter((w, i, a) => w !== 
 // complete the function
 function solution(string) {
     let result = "";
-  // loop on letter
-  for (let letter of string) {
-    // if letter is uppercase and not the first letter of the word add a space followed by the letter
-    if (letter == letter.toUpperCase() && result) {
-      result += ` ${letter}`;
-    } else { // else just add the letter
-      result += letter;
+    // loop on letter
+    for (let letter of string) {
+        // if letter is uppercase and not the first letter of the word add a space followed by the letter
+        if (letter == letter.toUpperCase() && result) {
+            result += ` ${letter}`;
+        } else { // else just add the letter
+            result += letter;
+        }
     }
-  }
-  return result;
+    return result;
 }
