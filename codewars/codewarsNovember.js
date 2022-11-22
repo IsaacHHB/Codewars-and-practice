@@ -179,3 +179,5 @@ function averageLength(arr) {
 const removeConsecutiveDuplicates = s => s.split(' ').filter((w, i, a) => w !== a[i + 1]).join(' ');
 
 //removeConsecutiveDuplicates('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'), 'alpha beta gamma delta alpha beta gamma delta');
+
+//Break camelCase
