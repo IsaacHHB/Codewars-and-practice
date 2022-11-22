@@ -181,3 +181,4 @@ const removeConsecutiveDuplicates = s => s.split(' ').filter((w, i, a) => w !== 
 //removeConsecutiveDuplicates('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'), 'alpha beta gamma delta alpha beta gamma delta');
 
 //Break camelCase
+// Complete the solution so that the function will break up camel casing, using a space between words.
