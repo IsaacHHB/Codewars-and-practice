@@ -202,3 +202,5 @@ function solution(string) {
 //console.log(solution(('camelCasingTest'), 'camel Casing Test'))
 
 //Build Tower
+//Build a pyramid-shaped tower, as an array/list of strings, given a positive integer number of floors. A tower block is represented with "*" character.
+
