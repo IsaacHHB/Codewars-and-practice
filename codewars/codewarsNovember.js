@@ -217,3 +217,5 @@ function towerBuilder(nFloors) {
 // console.log(towerBuilder(1), ["*"]);
 // console.log(towerBuilder(2), [" * ","***"]);
 // console.log(towerBuilder(3), ["  *  "," *** ","*****"]);
+
+//Stop gninnipS My sdroW!
