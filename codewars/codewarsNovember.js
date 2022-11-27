@@ -227,3 +227,4 @@ function spinWords(string) {
     }).join(' ')
 }
 
+//   console.log(spinWords("Welcome"), "emocleW");
