@@ -228,3 +228,4 @@ function spinWords(string) {
 }
 
 //   console.log(spinWords("Welcome"), "emocleW");
+//   console.log(spinWords("Hey fellow warriors"), "Hey wollef sroirraw");
