@@ -183,7 +183,6 @@ const removeConsecutiveDuplicates = s => s.split(' ').filter((w, i, a) => w !== 
 //Break camelCase
 // Complete the solution so that the function will break up camel casing, using a space between words.
 
-// complete the function
 function solution(string) {
     let result = "";
     // loop on letter
