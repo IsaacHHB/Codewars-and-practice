@@ -7,3 +7,5 @@ function mango(quantity, price) {
 
 // console.log(mango(3, 3), 6)
 // console.log(mango(9, 5), 30)
+
+//Find out whether the shape is a cube
