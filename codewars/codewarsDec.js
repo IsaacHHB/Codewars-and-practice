@@ -16,3 +16,4 @@ var cubeChecker = function (volume, side) {
 };
 
 // console.log(cubeChecker(56.3, 1), false);
+// console.log(cubeChecker(-1, 2), false);
