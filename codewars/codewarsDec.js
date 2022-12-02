@@ -14,3 +14,5 @@ function mango(quantity, price) {
 var cubeChecker = function (volume, side) {
     return volume === side * side * side && volume > 0;
 };
+
+// console.log(cubeChecker(56.3, 1), false);
