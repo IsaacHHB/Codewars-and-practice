@@ -23,3 +23,4 @@ var cubeChecker = function (volume, side) {
 // console.log(cubeChecker(0, 0), false);
 // console.log(cubeChecker(1, 5),  false);
 // console.log(cubeChecker(125, 5), true);
+// console.log(cubeChecker(125,-5), false);
