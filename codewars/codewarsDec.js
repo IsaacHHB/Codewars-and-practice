@@ -31,3 +31,4 @@ var cubeChecker = function (volume, side) {
 const smash = words => words.join(' ')
 
 //console.log(smash(["hello", "world"]), "hello world");
+//console.log(smash(["hello", "amazing", "world"]), "hello amazing world");
