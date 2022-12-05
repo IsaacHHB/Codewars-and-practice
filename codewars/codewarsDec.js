@@ -40,3 +40,6 @@ const smash = words => words.join(' ')
 function count (string) {  
    
 }
+
+console.log(count("aba"), { a: 2, b: 1 }); 
+console.log(count(""), {});   
