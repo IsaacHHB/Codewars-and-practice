@@ -65,3 +65,4 @@ function openOrSenior(data) {
     return arr
 }
 
+//?console.log(openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]),['Open', 'Senior', 'Open', 'Senior'])
