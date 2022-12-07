@@ -70,6 +70,8 @@ function openOrSenior(data) {
 //?console.log(openOrSenior([[59, 12],[55,-1],[12, -2],[12, 12]]),['Senior', 'Open', 'Open', 'Open'])
 
 //+ Find the stray number
+//+ You are given an odd-length array of integers, in which all of them are the same, except for one single number. Complete the method which accepts such an array, and returns that single different number.
+
 
  
 
