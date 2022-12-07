@@ -77,5 +77,6 @@ function stray(numbers) {
     return +result
   }
 
+//? console.log(stray([1, 1, 2]), 2);
 
 
