@@ -81,6 +81,7 @@ function stray(numbers) {
 //? console.log(stray([1, 2, 1]), 2);
 //? console.log(stray([2, 1, 1]), 2);
 
+//+ You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
 
  
 
