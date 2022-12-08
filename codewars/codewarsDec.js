@@ -85,6 +85,20 @@ function stray(numbers) {
 //+ Letters are case sensitive, so "a" is considered a different type of stone from "A".
 //+ Constraints: 1 <= jewels.length, stones.length <= 50 jewels and stones consist of only English letters. All the characters of jewels are unique.
 
+function numJewelsInStones(jewels, stones) {
+    const map = {}
+    let count = 0
+    
+    for(const jewel of jewels){
+        map[jewel] = true
+    }
+    for(const stone of stones){
+        if(map[stone]){
+            count++
+        }
+    }
+    return count
+}
 
  
 
