@@ -73,9 +73,9 @@ function openOrSenior(data) {
 //+ You are given an odd-length array of integers, in which all of them are the same, except for one single number. Complete the method which accepts such an array, and returns that single different number.
 
 function stray(numbers) {
-    let result = numbers.filter((l,i,a) => a.indexOf(l) == a.lastIndexOf(l))
+    let result = numbers.filter((l, i, a) => a.indexOf(l) == a.lastIndexOf(l))
     return +result
-  }
+}
 
 //? console.log(stray([1, 1, 2]), 2);
 //? console.log(stray([1, 2, 1]), 2);
@@ -88,12 +88,12 @@ function stray(numbers) {
 function numJewelsInStones(jewels, stones) {
     const map = {}
     let count = 0
-    
-    for(const jewel of jewels){
+
+    for (const jewel of jewels) {
         map[jewel] = true
     }
-    for(const stone of stones){
-        if(map[stone]){
+    for (const stone of stones) {
+        if (map[stone]) {
             count++
         }
     }
@@ -102,5 +102,5 @@ function numJewelsInStones(jewels, stones) {
 
 // console.log(numJewelsInStones("aA", "aAAbbbb"), 3)
 // console.log(numJewelsInStones("z","ZZ"), 0)
- 
+
 
