@@ -100,5 +100,7 @@ function numJewelsInStones(jewels, stones) {
     return count
 }
 
+console.log(numJewelsInStones("aA", "aAAbbbb"), 3)
+
  
 
