@@ -100,7 +100,7 @@ function numJewelsInStones(jewels, stones) {
     return count
 }
 
-// console.log(numJewelsInStones("aA", "aAAbbbb"), 3)
-// console.log(numJewelsInStones("z","ZZ"), 0)
+//? console.log(numJewelsInStones("aA", "aAAbbbb"), 3)
+//? console.log(numJewelsInStones("z","ZZ"), 0)
 
 
