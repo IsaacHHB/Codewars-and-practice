@@ -106,6 +106,24 @@ function numJewelsInStones(jewels, stones) {
 //+ Return max letter count
 //+ Given a string of characters, return the character that appears the most often.
 
+function max(str){
+    let mapStr= {},
+        count = 0,
+        maxChar = null
+
+    for (const l of str){
+        mapStr[l] = mapStr[l] + 1 || 1
+    }
+    for (const l in mapStr){
+        if(mapStr[l] > count){
+            count = mapStr[l]
+            maxChar = l
+        }
+    }
+
+    return maxChar
+}
+
 
 
 
