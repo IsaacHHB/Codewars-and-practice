@@ -104,6 +104,8 @@ function numJewelsInStones(jewels, stones) {
 //? console.log(numJewelsInStones("z","ZZ"), 0)
 
 //+ Return max letter count
+//+ Given a string of characters, return the character that appears the most often.
+
 
 
 
