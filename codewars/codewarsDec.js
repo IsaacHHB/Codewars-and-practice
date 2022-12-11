@@ -124,6 +124,7 @@ function max(str) {
     return maxChar
 }
 
+console.log(max("Hello World!"), "l")
 
 
 
