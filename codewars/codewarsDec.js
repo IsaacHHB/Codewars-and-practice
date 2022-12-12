@@ -125,3 +125,5 @@ function max(str) {
 }
 
 //? console.log(max("Hello World!"), "l")
+//? console.log(max("abcdefghijkbcc"), 'c')
+
