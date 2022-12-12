@@ -134,7 +134,7 @@ function isDigit(s) {
     return /^-?\d+(\.\d+)?$/.test(s);
 }
 
-console.log(isDigit("s2324"), false);
+//? console.log(isDigit("s2324"), false);
 console.log(isDigit("-234.4"), true); 
 
 //+ Split Strings
