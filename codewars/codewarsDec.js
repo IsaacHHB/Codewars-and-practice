@@ -124,9 +124,4 @@ function max(str) {
     return maxChar
 }
 
-//+ console.log(max("Hello World!"), "l")
-//+ console.log(max("abcdefghijkbcc"), 'c')
-
-
-
-
+//? console.log(max("Hello World!"), "l")
