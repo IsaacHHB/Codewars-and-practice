@@ -132,6 +132,6 @@ function max(str) {
 
 function isDigit(s) {
     return /^-?\d+(\.\d+)?$/.test(s);
-  }
+}
 
 
