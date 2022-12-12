@@ -134,4 +134,4 @@ function isDigit(s) {
     return /^-?\d+(\.\d+)?$/.test(s);
 }
 
-
+console.log(isDigit("s2324"), false);
