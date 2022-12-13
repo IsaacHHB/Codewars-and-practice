@@ -152,3 +152,5 @@ function solution(str) {
     return res
 }
 
+console.log(solution("abcdef"), ["ab", "cd", "ef"]);
+
