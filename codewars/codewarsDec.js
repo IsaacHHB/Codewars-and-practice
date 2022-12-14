@@ -162,15 +162,15 @@ function solution(str) {
 function containsDuplicate(array) {
     let dupMap = {}
 
-    for(const l of array){
+    for (const l of array) {
         let num = array[l]
-        if(dupMap[num]){
+        if (dupMap[num]) {
             return true
-        }else{
+        } else {
             dupMap[num] = true
         }
     }
     return false
- }
+}
 
 
