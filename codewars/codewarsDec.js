@@ -156,5 +156,5 @@ function solution(str) {
 //? console.log(solution("abcdefg"), ["ab", "cd", "ef", "g_"]);
 //? console.log(solution(""), []);
 
-
+//+ Contains Duplicate
 
