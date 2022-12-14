@@ -159,4 +159,18 @@ function solution(str) {
 //+ Contains Duplicate
 //+ Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
+function containsDuplicate(array) {
+    let dupMap = {}
+
+    for(const l of array){
+        let num = array[l]
+        if(dupMap[num]){
+            return true
+        }else{
+            dupMap[num] = true
+        }
+    }
+    return false
+ }
+
 
