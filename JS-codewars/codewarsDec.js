@@ -186,9 +186,9 @@ function majorityElement(nums) {
         // count = 0,
         majElem = nums[0]
 
-    for(const num of nums){
+    for (const num of nums) {
         map[num] = map[num] + 1 || 1
-        if(map[num] > nums.length / 2){
+        if (map[num] > nums.length / 2) {
             majElem = num
         }
     }
