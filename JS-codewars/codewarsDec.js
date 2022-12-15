@@ -201,4 +201,5 @@ function majorityElement(nums) {
     return majElem
 };
 
+console.log(majorityElement([3,2,3]), 3)
 
