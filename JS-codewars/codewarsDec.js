@@ -229,4 +229,4 @@ function ransomNote(note, magazine) {
     return possible
 }
 
-
+console.log(ransomNote("sit ad est sint", magazine), true);
