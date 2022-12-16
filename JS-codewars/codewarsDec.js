@@ -205,3 +205,5 @@ function majorityElement(nums) {
 //? console.log(majorityElement([2,2,1,1,1,2,2]), 2)
 
 //+ ransom note
+//+ Given a magazine of words and a ransom note, determine if it’s possible to “cut out” and create the ransom note from the magazine words.
+
