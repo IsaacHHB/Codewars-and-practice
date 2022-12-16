@@ -231,4 +231,5 @@ function ransomNote(note, magazine) {
 
 console.log(ransomNote("sit ad est sint", magazine), true);
 console.log(ransomNote("sit ad est love", magazine), false);
+console.log(ransomNote("sit ad est sint in in", magazine), true);
 
