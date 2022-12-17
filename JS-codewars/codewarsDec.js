@@ -252,7 +252,7 @@ function twoSum(arr, sum) {
     return pairs
 }
 
-console.log(twoSum([1, 2, 2, 3, 4], 4), [[2, 2], [3, 1]]);
+//? console.log(twoSum([1, 2, 2, 3, 4], 4), [[2, 2], [3, 1]]);
 console.log(twoSum([5, 6, 4, 3, 2], 9), [[4, 5], [3, 6]]);
 console.log(twoSum([4, 3, 5, 2, 4], 8), [[5, 3], [4, 4]]);
 
