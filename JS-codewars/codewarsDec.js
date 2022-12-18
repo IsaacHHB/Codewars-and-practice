@@ -270,3 +270,4 @@ function countSmileys(arr) {
     return count
 }
 
+console.log(countSmileys([]                             ), 0);
