@@ -262,11 +262,11 @@ function twoSum(arr, sum) {
 function countSmileys(arr) {
     const smileys = [':)', ':D', ':-)', ':~)', ':-D', ':~D', ';)', ';D', ';-)', ';~)', ';-D', ';~D'];
     let count = 0;
-    for(let i = 0; i < arr.length; i++){
-      if(smileys.includes(arr[i])){
-        count++
-      }
+    for (let i = 0; i < arr.length; i++) {
+        if (smileys.includes(arr[i])) {
+            count++
+        }
     }
     return count
-  }
+}
 
