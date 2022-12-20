@@ -296,3 +296,4 @@ const findMissingLetter = (array) => {
 }
 
 console.log(findMissingLetter(['a', 'b', 'c', 'e'])); // d
+console.log(findMissingLetter(['l', 'n', 'o', 'p'])); // m
