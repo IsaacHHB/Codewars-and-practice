@@ -295,3 +295,4 @@ const findMissingLetter = (array) => {
     return null; // if nothing is found
 }
 
+console.log(findMissingLetter(['a', 'b', 'c', 'e'])); // d
