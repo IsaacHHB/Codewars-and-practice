@@ -275,3 +275,4 @@ function countSmileys(arr) {
 //? console.log(countSmileys([':)',':(',':D',':O',':;']     ), 2);
 //? console.log(countSmileys([';]', ':[', ';*', ':$', ';-D']), 1);
 
+//+ Find the missing letter
