@@ -295,7 +295,7 @@ const findMissingLetter = (array) => {
     return null; // if nothing is found
 }
 
-console.log(findMissingLetter(['a', 'b', 'c', 'e'])); // d
+//? console.log(findMissingLetter(['a', 'b', 'c', 'e'])); // d
 console.log(findMissingLetter(['l', 'n', 'o', 'p'])); // m
 console.log(findMissingLetter(['s', 't', 'u', 'w', 'x'])); // v
 console.log(findMissingLetter(['a', 'b', 'c'])); // null
