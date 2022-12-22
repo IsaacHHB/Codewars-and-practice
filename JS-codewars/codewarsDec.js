@@ -300,3 +300,4 @@ const findMissingLetter = (array) => {
 //? console.log(findMissingLetter(['s', 't', 'u', 'w', 'x'])); // v
 //? console.log(findMissingLetter(['a', 'b', 'c'])); // null
 
+//+ Is a number prime?
