@@ -314,3 +314,5 @@ function isPrime(num) {
     }
     return true;
 }
+
+console.log(isPrime(0),  false);
