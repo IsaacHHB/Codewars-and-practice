@@ -316,3 +316,4 @@ function isPrime(num) {
 }
 
 console.log(isPrime(0),  false);
+console.log(isPrime(1),  false);
