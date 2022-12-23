@@ -319,5 +319,5 @@ function isPrime(num) {
 //? console.log(isPrime(1),  false);
 //? console.log(isPrime(2),  true);
 //? console.log(isPrime(73), true);
-console.log(isPrime(75), false);
+//? console.log(isPrime(75), false);
 console.log(isPrime(-1), false)
