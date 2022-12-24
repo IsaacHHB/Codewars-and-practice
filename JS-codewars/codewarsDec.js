@@ -352,3 +352,4 @@ function divisors(integer) {
     return arr.length ? arr : `${integer} is prime`
 }
 
+console.log(divisors(14),        [2, 7]);
