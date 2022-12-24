@@ -353,3 +353,7 @@ function divisors(integer) {
 }
 
 console.log(divisors(14),        [2, 7]);
+console.log(divisors(15),        [3, 5]);
+
+
+
