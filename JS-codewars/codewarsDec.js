@@ -356,5 +356,5 @@ function divisors(integer) {
 //? console.log(divisors(15),        [3, 5]);
 //? console.log(divisors(12),  [2, 3, 4, 6]);
 //? console.log(divisors(20), [2, 4, 5, 10]);
-console.log(divisors(13), "13 is prime");
+//? console.log(divisors(13), "13 is prime");
 console.log(divisors(97), "97 is prime");
