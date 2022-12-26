@@ -372,7 +372,7 @@ function findOutlier(integers) {
             oddArr.push(integers[i])
         }
     }
-    return oddArr.length < evenArr.length ? +oddArr : +evenArr
+    return oddArr.length < evenArr.length ? oddArr[0] : evenArr[0]
 }
 
 //+ filter solution 
