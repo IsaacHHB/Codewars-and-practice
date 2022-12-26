@@ -358,3 +358,5 @@ function divisors(integer) {
 //? console.log(divisors(20), [2, 4, 5, 10]);
 //? console.log(divisors(13), "13 is prime");
 //? console.log(divisors(97), "97 is prime");
+
+//+ Find The Parity Outlier
