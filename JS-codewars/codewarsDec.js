@@ -374,3 +374,8 @@ function findOutlier(integers) {
     }
     return oddArr.length < evenArr.length ? +oddArr : +evenArr
 }
+
+console.log(findOutlier([0, 1, 2]), 1)
+
+
+
