@@ -375,6 +375,7 @@ function findOutlier(integers) {
     return oddArr.length < evenArr.length ? +oddArr : +evenArr
 }
 
+//+ filter solution 
 
 function findOutlier(integers){
     const even = integers.filter(int => int % 2 === 0);
