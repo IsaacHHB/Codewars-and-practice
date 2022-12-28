@@ -389,3 +389,4 @@ function findOutlier(integers) {
 //? console.log(findOutlier([0, 0, 3, 0, 0]),  3)
 //? console.log(findOutlier([1, 1, 0, 1, 1]),  0)
 
+//+ Highest Scoring Word
