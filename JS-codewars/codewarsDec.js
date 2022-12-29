@@ -397,3 +397,4 @@ function high(s) {
     return s.split(' ')[as.indexOf(Math.max(...as))];
 }
 
+console.log(high('man i need a taxi up to ubud'),                'taxi');
