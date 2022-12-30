@@ -404,5 +404,5 @@ function high(s) {
 //? console.log(high('b aa'),                                           'b');
 //? console.log(high('bb d'),                                          'bb');
 //? console.log(high('d bb'),                                           'd');
-console.log(high('aaa b'),                                        'aaa');
+//? console.log(high('aaa b'),                                        'aaa');
 
