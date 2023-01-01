@@ -424,3 +424,4 @@ function twoSum(numbers, target) {
 //? console.log(twoSum([2,2,3],          4),     [0,1])
 //? console.log(twoSum([2,3,1],          4),     [1,2])
 
+//+ First non-repeating character
