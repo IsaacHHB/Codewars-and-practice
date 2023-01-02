@@ -439,3 +439,4 @@ function firstNonRepeatingLetter(s) {
 
 console.log(firstNonRepeatingLetter('a'),       'a');
 console.log(firstNonRepeatingLetter('stress'),  't');
+console.log(firstNonRepeatingLetter('moonmen'), 'e');
