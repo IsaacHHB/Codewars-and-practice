@@ -429,11 +429,11 @@ function twoSum(numbers, target) {
 
 function firstNonRepeatingLetter(s) {
     let low = s.toLowerCase();
-    for ( let i = 0; i < s.length; i++ ) {
-      if ( low.indexOf(low[i]) === low.lastIndexOf(low[i]) ) {
-        return s[i]
-      }
+    for (let i = 0; i < s.length; i++) {
+        if (low.indexOf(low[i]) === low.lastIndexOf(low[i])) {
+            return s[i]
+        }
     }
     return '';
-  }
+}
 
