@@ -460,11 +460,11 @@ const solution = (num) => {
     return str;
 };
 
-//? console.log(solution(1000), 'M', '1000 should, "M"')
-//? console.log(solution(1001), 'MI', '1001 should, "MI"')
-//? console.log(solution(1990), 'MCMXC', '1990 should, "MCMXC"')
-//? console.log(solution(2007), 'MMVII', '2007 should, "MMVII"')
-//? console.log(solution(2008), 'MMVIII', '2008 should, "MMVIII"')
+//? console.log(solution(1000), 'M')
+//? console.log(solution(1001), 'MI')
+//? console.log(solution(1990), 'MCMXC')
+//? console.log(solution(2007), 'MMVII')
+//? console.log(solution(2008), 'MMVIII')
 
 //+ Who ate the cookie?
 //+ For this problem you must create a program that says who ate the last cookie. If the input is a string then "Zach" ate the cookie. If the input is a float or an int then "Monica" ate the cookie. If the input is anything else "the dog" ate the cookie. The way to return the statement is: "Who ate the last cookie? It was (name)!" Ex: Input = "hi" --> Output = "Who ate the last cookie? It was Zach! (The reason you return Zach is because the input is a string) Note: Make sure you return the correct message with correct spaces and punctuation.
@@ -478,4 +478,5 @@ function cookie(x) {
         return "Who ate the last cookie? It was the dog!"
     }
 }
+
 
