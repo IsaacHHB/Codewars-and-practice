@@ -461,3 +461,4 @@ const solution = (num) => {
 };
 
 console.log(solution(1000), 'M', '1000 should, "M"')
+console.log(solution(1001), 'MI', '1001 should, "MI"')
