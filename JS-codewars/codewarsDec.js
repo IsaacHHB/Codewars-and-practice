@@ -459,3 +459,5 @@ const solution = (num) => {
     }
     return str;
 };
+
+console.log(solution(1000), 'M', '1000 should, "M"')
