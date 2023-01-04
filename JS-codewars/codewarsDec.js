@@ -479,4 +479,5 @@ function cookie(x) {
     }
 }
 
+console.log(cookie("Ryan"), "Who ate the last cookie? It was Zach!")
 
