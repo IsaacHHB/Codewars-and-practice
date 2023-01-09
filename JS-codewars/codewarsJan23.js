@@ -13,7 +13,7 @@ for (let i = 0; i < 1000; i++) {
 
 function mystery() {
     var results = {
-      sanity: 'Hello'
+        sanity: 'Hello'
     };
     return results;
-  }
+}
