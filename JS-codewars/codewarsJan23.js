@@ -9,3 +9,4 @@ for (let i = 0; i < 1000; i++) {
 }
 
 //+ Return to Sanity
+//+ This function should return an object, but it's not doing what's intended. What's wrong?
