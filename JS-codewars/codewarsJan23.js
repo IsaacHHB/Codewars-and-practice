@@ -17,3 +17,5 @@ function mystery() {
     };
     return results;
 }
+
+//? console.log(mystery())
