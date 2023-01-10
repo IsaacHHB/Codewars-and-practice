@@ -29,4 +29,5 @@ function findNextSquare(sq) {
 }
 
 console.log(findNextSquare(121), 144);
+console.log(findNextSquare(625), 676);
 
