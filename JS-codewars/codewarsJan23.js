@@ -31,4 +31,5 @@ function findNextSquare(sq) {
 console.log(findNextSquare(121), 144);
 console.log(findNextSquare(625), 676);
 console.log(findNextSquare(319225), 320356);
+console.log(findNextSquare(15241383936), 15241630849);
 
