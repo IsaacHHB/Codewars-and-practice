@@ -26,4 +26,4 @@ function mystery() {
 function findNextSquare(sq) {
     sq = Math.sqrt(sq) + 1;
     return Number.isInteger(sq) ? sq * sq : -1;
-  }
+}
