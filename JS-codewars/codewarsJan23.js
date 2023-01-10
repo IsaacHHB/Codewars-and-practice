@@ -27,3 +27,6 @@ function findNextSquare(sq) {
     sq = Math.sqrt(sq) + 1;
     return Number.isInteger(sq) ? sq * sq : -1;
 }
+
+console.log(findNextSquare(121), 144);
+
