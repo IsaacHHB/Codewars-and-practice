@@ -19,3 +19,5 @@ function mystery() {
 }
 
 //? console.log(mystery())
+
+//+ Find the next perfect square!
