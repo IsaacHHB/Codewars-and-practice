@@ -79,5 +79,6 @@ function narcissistic(value) {
         === value
 }
 
+console.log(narcissistic( 7 ), true);
 
 
