@@ -69,4 +69,7 @@ function narcissistic(value) {
     return sum === value;
 }
 
+//! Smarter answer
+
+
 
