@@ -62,11 +62,11 @@ function narcissistic(value) {
     // Code me to return true or false
     var val = (value + '').split('');
     let sum = 0;
-    for( var v of val) {
-      const num = parseInt(v);
-      sum += Math.pow(num, val.length);
+    for (var v of val) {
+        const num = parseInt(v);
+        sum += Math.pow(num, val.length);
     }
     return sum === value;
-  }
+}
 
 
