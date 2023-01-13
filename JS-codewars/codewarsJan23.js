@@ -55,3 +55,6 @@ function tribonacci(signature, n) {
 //? console.log(tribonacci([1,1,1],  1), [1])
 //? console.log(tribonacci([300,200,100], 0), [])
 
+//+ Does my number look big in this?
+
+
