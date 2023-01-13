@@ -58,5 +58,15 @@ function tribonacci(signature, n) {
 //+ Does my number look big in this?
 //+ A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
 
+function narcissistic(value) {
+    // Code me to return true or false
+    var val = (value + '').split('');
+    let sum = 0;
+    for( var v of val) {
+      const num = parseInt(v);
+      sum += Math.pow(num, val.length);
+    }
+    return sum === value;
+  }
 
 
