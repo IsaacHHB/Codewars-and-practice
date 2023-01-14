@@ -90,5 +90,6 @@ function digPow(n, p) {
     return x % n ? -1 : x / n
 }
 
+console.log(digPow(89, 1), 1)
 
 
