@@ -108,5 +108,6 @@ function findEvenIndex(arr) {
     return -1;
 }
 
+console.log(findEvenIndex([1,2,3,4,3,2,1]), 3);
 
 
