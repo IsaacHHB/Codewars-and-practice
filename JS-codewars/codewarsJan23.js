@@ -100,13 +100,13 @@ function digPow(n, p) {
 function findEvenIndex(arr) {
     var left = [], right = [];
     for (var i = 0, sum = 0; i < arr.length; i++) {
-      left.push(sum);
-      sum += arr[i];
+        left.push(sum);
+        sum += arr[i];
     }
     for (i = 0; i < arr.length; i++)
-      if (left[i] == sum - left[i] - arr[i]) return i;
+        if (left[i] == sum - left[i] - arr[i]) return i;
     return -1;
-  }
+}
 
 
 
