@@ -94,4 +94,6 @@ function digPow(n, p) {
 //? console.log(digPow(92, 1), -1)
 //? console.log(digPow(46288, 3), 51)
 
+//+ Equal Sides Of An Array
+
 
