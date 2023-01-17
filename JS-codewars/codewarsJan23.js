@@ -113,3 +113,5 @@ function findEvenIndex(arr) {
 //? console.log(findEvenIndex([1,2,3,4,5,6]), -1);
 //? console.log(findEvenIndex([20,10,30,10,10,15,35]), 3);
 
+//+ Mexican Wave
+
