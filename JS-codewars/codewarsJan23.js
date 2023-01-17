@@ -117,16 +117,15 @@ function findEvenIndex(arr) {
 //+ In this simple Kata your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return that string in an array where an uppercase letter is a person standing up. 
 
 function wave(str) {
-    let waveArr = [];
+    let newArr = [];
     for (let i = 0; i < str.length; i++) {
-        let letter = str[i];
-        if (letter === " ") {
-            continue;
-        } else {
-            waveArr.push(str.slice(0, i) + letter.toUpperCase() + str.slice(i + 1))
+        let copy = str.split('');
+        if (copy[i] !== ' ') {
+            copy[i] = copy[i].toUpperCase()
+            newArr.push(copy.join(''))
         }
     }
-    return waveArr;
+    return newArr
 }
 
 //? console.log(wave("codewars"), ["Codewars", "cOdewars", "coDewars", "codEwars", "codeWars", "codewArs", "codewaRs", "codewarS"]);
