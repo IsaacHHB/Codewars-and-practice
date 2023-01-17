@@ -130,3 +130,4 @@ function wave(str) {
 }
 
 console.log(wave("codewars"), ["Codewars", "cOdewars", "coDewars", "codEwars", "codeWars", "codewArs", "codewaRs", "codewarS"]);
+console.log(wave(""), []);
