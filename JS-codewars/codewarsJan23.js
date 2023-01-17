@@ -132,3 +132,4 @@ function wave(str) {
 console.log(wave("codewars"), ["Codewars", "cOdewars", "coDewars", "codEwars", "codeWars", "codewArs", "codewaRs", "codewarS"]);
 console.log(wave(""), []);
 console.log(wave("two words"), ["Two words", "tWo words", "twO words", "two Words", "two wOrds", "two woRds", "two worDs", "two wordS"]);
+console.log(wave(" gap "), [" Gap ", " gAp ", " gaP "])
