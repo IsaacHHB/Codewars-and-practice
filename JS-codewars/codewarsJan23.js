@@ -128,3 +128,5 @@ function wave(str) {
     }
     return waveArr;
 }
+
+console.log(wave("codewars"), ["Codewars", "cOdewars", "coDewars", "codEwars", "codeWars", "codewArs", "codewaRs", "codewarS"]);
