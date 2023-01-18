@@ -141,3 +141,4 @@ function nearestSq(n) {
 }
 
 console.log(nearestSq(1),1)
+console.log(nearestSq(2),1)
