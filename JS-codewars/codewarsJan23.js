@@ -150,10 +150,10 @@ function nearestSq(n) {
 //+ In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.
 
 const factorial = n => {
-    if(n == 0){
-      return 1
-    }else{
-      return n * factorial(--n)
+    if (n == 0) {
+        return 1
+    } else {
+        return n * factorial(--n)
     }
-  };
+};
 
