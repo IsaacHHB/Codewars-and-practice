@@ -157,3 +157,4 @@ const factorial = n => {
     }
 };
 
+console.log(factorial(0), 1);
