@@ -200,3 +200,4 @@ function longestConsec(strarr, k) {
     });
 }
 
+console.log(longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2), "abigailtheta")
