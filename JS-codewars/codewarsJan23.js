@@ -182,3 +182,21 @@ function expandedForm(num) {
 //+ Consecutive strings
 //+ You are given an array(list) strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
 
+function longestConsec(strarr, k) {
+    let arrLength = strarr.length;
+    let arr = [];
+    
+    if(arrLength == 0 || k > arrLength || k <= 0) return "";
+      
+    for(let i = 0; i <= arrLength - k; i++){
+      let current = strarr[i];
+      for(let ii = k, jj = 1; ii > 1; ii--, jj++){
+        current += strarr[i+jj]
+      }
+    arr.push(current);
+    }
+   return arr.reduce(function (a, b) {
+          return a.length > b.length ? a : a.length == b.length ? a : b;
+      });
+  }
+
