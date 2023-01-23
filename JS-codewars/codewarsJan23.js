@@ -168,13 +168,13 @@ const factorial = n => {
 function expandedForm(num) {
     let arr = [],
         multiple = 10
-    while(num > 1){
+    while (num > 1) {
         var remainder = num % multiple;
-      if(remainder >0){
-        arr.unshift(remainder);
-      }
-      num -= remainder;
-      multiple = multiple * 10;
-      }
+        if (remainder > 0) {
+            arr.unshift(remainder);
+        }
+        num -= remainder;
+        multiple = multiple * 10;
+    }
     return arr.join(" + ");
-  }
+}
