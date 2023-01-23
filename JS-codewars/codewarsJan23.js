@@ -178,3 +178,5 @@ function expandedForm(num) {
     }
     return arr.join(" + ");
 }
+
+console.log(expandedForm(12), '10 + 2');
