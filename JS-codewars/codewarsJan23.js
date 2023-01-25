@@ -222,3 +222,5 @@ function toCsvText(array) {
 //? console.log(toCsvText([ [5, 55, 5, 5, 55], [6, 6, 66, 23, 24], [666, 31, 66, 33, 7]]), '5,55,5,5,55\n6,6,66,23,24\n666,31,66,33,7');
 
 //+ Power
+//+ The goal is to create a function 'numberToPower(number, power)' that "raises" the number up to power (ie multiplies number by itself power times).
+
