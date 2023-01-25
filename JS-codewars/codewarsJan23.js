@@ -224,3 +224,5 @@ function toCsvText(array) {
 //+ Power
 //+ The goal is to create a function 'numberToPower(number, power)' that "raises" the number up to power (ie multiplies number by itself power times).
 
+const numberToPower = (number, power) => power > 0 ? number * numberToPower(number, power - 1) : 1;
+
