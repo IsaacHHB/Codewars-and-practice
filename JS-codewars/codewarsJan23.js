@@ -215,4 +215,4 @@ function longestConsec(strarr, k) {
 
 function toCsvText(array) {
     return array.join('\n')
- }
+}
