@@ -242,3 +242,5 @@ function getDivisorsCnt(n) {
     }
     return output
 }
+
+console.log(getDivisorsCnt(1),  1);
