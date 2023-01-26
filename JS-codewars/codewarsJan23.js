@@ -231,4 +231,4 @@ const numberToPower = (number, power) => power > 0 ? number * numberToPower(numb
 //? console.log(numberToPower(10, 0), 1);
 
 //+ Count the divisors of a number
-//+
+//+ Count the number of divisors of a positive integer n.
