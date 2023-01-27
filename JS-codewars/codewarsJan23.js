@@ -257,3 +257,4 @@ function roundToNext5(n) {
 
 console.log(roundToNext(0), 0)
 console.log(roundToNext(1), 5)
+console.log(roundToNext(-1), 0)
