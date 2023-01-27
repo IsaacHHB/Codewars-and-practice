@@ -254,3 +254,5 @@ function getDivisorsCnt(n) {
 function roundToNext5(n) {
     return Math.ceil(n / 5) * 5;
 }
+
+console.log(roundToNext(0), 0)
