@@ -274,3 +274,4 @@ function roundToNext5(n) {
 const solution = nums => !nums || !nums.length ? [] : nums.sort((a,b) => a - b)
 
 console.log(solution([1,2,3,10,5]), [1,2,3,5,10])
+console.log(solution(null), [])
