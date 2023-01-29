@@ -271,7 +271,7 @@ function roundToNext5(n) {
 //+ Sort Numbers
 //+ Finish the solution so that it sorts the passed in array of numbers. If the function passes in an empty array or null/nil value then it should return an empty array.
 
-const solution = nums => !nums || !nums.length ? [] : nums.sort((a,b) => a - b)
+const solution = nums => !nums || !nums.length ? [] : nums.sort((a, b) => a - b)
 
 //? console.log(solution([1,2,3,10,5]), [1,2,3,5,10])
 //? console.log(solution(null), [])
