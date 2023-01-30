@@ -293,3 +293,5 @@ function arithmetic(a, b, operator) {
         return a / b
     }
 }
+
+console.log(arithmetic(1, 2, "add"), 3);
