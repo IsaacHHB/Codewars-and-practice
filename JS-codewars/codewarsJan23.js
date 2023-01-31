@@ -311,3 +311,4 @@ function mygcd(x, y) {
 }
 
 console.log(mygcd(30,12),6)
+console.log(mygcd(8,9),1)
