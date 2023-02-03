@@ -31,4 +31,4 @@ function isVow(array $a){
 
 //? echo ["e",121,"e"], isVow([101,121,101]);
 //? echo ["u","a",107,"u"], isVow([117,97,107,117]);
-
+echo ["u","a",107,"u"], isVow([105,97,107,111]);
