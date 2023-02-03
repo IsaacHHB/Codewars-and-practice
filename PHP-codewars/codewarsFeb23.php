@@ -11,3 +11,5 @@ function even_or_odd(int $n): string{
 //? echo "Odd", even_or_odd(7);
 //? echo "Odd", even_or_odd(1);
 //? echo "Odd", even_or_odd(-1);
+
+//+Is there a vowel in there?
