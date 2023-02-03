@@ -29,6 +29,6 @@ function isVow(array $a){
     return $total;
 }
 
-echo ["e",121,"e"], isVow([101,121,101]);
+//? echo ["e",121,"e"], isVow([101,121,101]);
 echo ["u","a",107,"u"], isVow([117,97,107,117]);
 
