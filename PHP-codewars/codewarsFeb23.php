@@ -28,3 +28,5 @@ function isVow(array $a){
 
     return $total;
 }
+
+echo ["e",121,"e"], isVow([101,121,101]);
