@@ -16,17 +16,15 @@ function even_or_odd(int $n): string{
 //+ Given an array of numbers, check if any of the numbers are the character codes for lower case vowels (a, e, i, o, u). If they are, change the array value to a string of that vowel. Return the resulting array.
 
 function isVow(array $a){
-
     $total = [];
+
     for ($i = 0; $i < count($a); $i++) {
-        if ($a[$i] == 97 || $a[$i] == 101 || $a[$i] == 105 || $a[$i] == 111 || $a[$i] == 117){
+        if ($a[$i] == 97 || $a[$i] == 101 || $a[$i] == 105 || $a[$i] == 111 || $a[$i] == 117) {
             array_push($total, chr($a[$i]));
             continue;
         }
         array_push($total, $a[$i]);
-    
-    }
-    
-       return $total; 
     }
 
+    return $total;
+}
