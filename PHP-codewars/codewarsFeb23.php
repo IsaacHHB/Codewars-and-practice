@@ -49,3 +49,4 @@ function positive_sum($arr){
 }
 
 echo 15, positive_sum([1, 2, 3, 4, 5]);
+echo 13, positive_sum([1, -2, 3, 4, 5]);
