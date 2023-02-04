@@ -52,3 +52,4 @@ echo 15, positive_sum([1, 2, 3, 4, 5]);
 echo 13, positive_sum([1, -2, 3, 4, 5]);
 echo 0, positive_sum([]);
 echo 0, positive_sum([-1, -2, -3, -4, -5]);
+echo 9, positive_sum([-1, 2, 3, 4, -5]);
