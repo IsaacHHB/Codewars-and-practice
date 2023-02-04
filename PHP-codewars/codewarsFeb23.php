@@ -35,3 +35,4 @@ function isVow(array $a){
 //? echo [107,98,"",127], isVow([107,98,101,127]);
 //? echo ["u","a",107,"u"], isVow([111,105,101,97]);
 
+//+ Sum of positive
