@@ -47,3 +47,5 @@ function positive_sum($arr){
     }
     return $total;
 }
+
+echo 15, positive_sum([1, 2, 3, 4, 5]);
