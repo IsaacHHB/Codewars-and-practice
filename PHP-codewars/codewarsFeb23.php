@@ -59,4 +59,4 @@ function positive_sum($arr){
 
 function numberToString($num){
     return "{$num}";
-  }
+}
