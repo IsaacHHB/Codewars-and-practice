@@ -55,3 +55,4 @@ function positive_sum($arr){
 //? echo 9, positive_sum([-1, 2, 3, 4, -5]);
 
 //+ Convert a Number to a String!
+//+ We need a function that can transform a number (integer) into a string. What ways of achieving this do you know?
