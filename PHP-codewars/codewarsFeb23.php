@@ -61,7 +61,7 @@ function numberToString($num){
     return "{$num}";
 }
 
-echo '67', numberToString(67);
+//? echo '67', numberToString(67);
 echo '51', numberToString(51);
 echo '397', numberToString(397);
 echo '799', numberToString(799);
