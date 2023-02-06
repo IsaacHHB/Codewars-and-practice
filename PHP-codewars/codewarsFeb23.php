@@ -59,6 +59,7 @@ function positive_sum($arr){
 
 function numberToString($num){
     return "{$num}";
+    // return (string) $num;
 }
 
 //? echo '67', numberToString(67);
