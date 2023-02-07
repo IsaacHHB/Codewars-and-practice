@@ -86,6 +86,6 @@ function remove_char(string $s) : string
 */
 
 //? echo 'loquen', remove_char('eloquent');
-echo 'ountr', remove_char('country');
+//? echo 'ountr', remove_char('country');
 echo 'erso', remove_char('person');
 echo 'lac', remove_char('place');
