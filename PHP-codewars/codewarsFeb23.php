@@ -86,4 +86,5 @@ function remove_char(string $s) : string
 */
 
 echo 'loquen', remove_char('eloquent');
+echo 'ountr', remove_char('country');
 
