@@ -66,3 +66,5 @@ function numberToString($num){
 //? echo '51', numberToString(51);
 //? echo '397', numberToString(397);
 //? echo '799', numberToString(799);
+
+//+ Remove First and Last Character
