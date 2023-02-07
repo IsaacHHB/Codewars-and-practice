@@ -85,4 +85,5 @@ function remove_char(string $s) : string
 } 
 */
 
+echo 'loquen', remove_char('eloquent');
 
