@@ -72,6 +72,6 @@ function numberToString($num){
 
 function remove_char(string $s): string{
     return substr($s, 1, -1); //Returns a substring that starts at 1 (2nd character) and goes to final character -1
-    }
+}
 
 
