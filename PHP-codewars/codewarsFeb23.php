@@ -70,3 +70,8 @@ function numberToString($num){
 //+ Remove First and Last Character
 //+ It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
 
+function remove_char(string $s): string{
+    return substr($s, 1, -1); //Returns a substring that starts at 1 (2nd character) and goes to final character -1
+    }
+
+
