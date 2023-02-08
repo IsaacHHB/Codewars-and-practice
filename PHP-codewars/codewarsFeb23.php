@@ -90,4 +90,4 @@ function remove_char(string $s) : string
 //? echo 'erso', remove_char('person');
 //? echo 'lac', remove_char('place');
 
-//+ 
+//+ Square(n) Sum
