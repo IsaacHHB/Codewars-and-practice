@@ -91,3 +91,4 @@ function remove_char(string $s) : string
 //? echo 'lac', remove_char('place');
 
 //+ Square(n) Sum
+//+ 
