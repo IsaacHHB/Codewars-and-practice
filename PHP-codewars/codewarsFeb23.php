@@ -101,4 +101,4 @@ function square_sum($numbers) : int {
     }
     return (int)array_reduce($arr, fn($carry, $number) =>
     $carry + $number);
-    }
+}
