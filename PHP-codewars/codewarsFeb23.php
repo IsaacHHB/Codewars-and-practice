@@ -104,3 +104,4 @@ function square_sum($numbers) : int {
 }
 
 echo square_sum([1,2]), 5;
+echo square_sum([0, 3, 4, 5]), 50;
