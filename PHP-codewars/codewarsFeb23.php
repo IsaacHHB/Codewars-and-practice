@@ -106,5 +106,5 @@ function square_sum($numbers) : int {
 //? echo square_sum([1,2]), 5;
 //? echo square_sum([0, 3, 4, 5]), 50;
 //? echo square_sum([]), 0;
-echo square_sum([-1,-2]), 5;
+//? echo square_sum([-1,-2]), 5;
 echo square_sum([-1,0,1]), 2;
