@@ -121,3 +121,4 @@ function summation($n) {
 }
 
 //? echo summation(1), 1;
+//? echo summation(2), 3;
