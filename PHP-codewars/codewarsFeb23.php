@@ -118,4 +118,4 @@ function summation($n) {
       $total += $i;
     }
     return $total;
-    }
+}
