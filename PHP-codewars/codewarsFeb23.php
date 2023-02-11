@@ -120,8 +120,4 @@ function summation($n) {
     return $total;
 }
 
-echo summation(1), 1;
-echo summation(2), 3;
-echo summation(3), 6;
-echo summation(4), 10;
-echo summation(5), 15;
+//? echo summation(1), 1;
