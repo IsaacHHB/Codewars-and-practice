@@ -131,5 +131,5 @@ function summation($n) {
 
 function opposite($n) {
     return $n * -1;
- }
+}
 
