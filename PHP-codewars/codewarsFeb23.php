@@ -126,3 +126,4 @@ function summation($n) {
 //? echo summation(4), 10;
 //? echo summation(5), 15;
 
+//+ Opposite number
