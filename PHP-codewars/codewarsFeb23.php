@@ -119,3 +119,5 @@ function summation($n) {
     }
     return $total;
 }
+
+echo summation(1), 1;
