@@ -133,3 +133,4 @@ function opposite($n) {
     return $n * -1;
 }
 
+echo opposite(1), -1;
