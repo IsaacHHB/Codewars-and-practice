@@ -137,3 +137,4 @@ function opposite($n) {
 //? echo opposite(14), -14;
 //? echo opposite(-34), 34;
 
+//+ String repeat
