@@ -145,3 +145,4 @@ function repeatStr($n, $str){
 }
 
 echo "***", repeatStr(3, "*");
+echo "@@", repeatStr(2, "@");
