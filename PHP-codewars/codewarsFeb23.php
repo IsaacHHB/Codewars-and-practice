@@ -155,3 +155,4 @@ function no_space(string $s): string {
     return str_replace(" ", "", $s);
 }
 
+echo '8j8mBliB8gimjB8B8jlB', no_space('8 j 8   mBliB8g  imjB8B8  jl  B');
