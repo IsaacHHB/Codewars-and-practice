@@ -167,3 +167,5 @@ function descendingOrder(int $n): int {
     rsort($narr);
     return (int) implode('', $narr);
 }
+
+echo 0, descendingOrder(0);
