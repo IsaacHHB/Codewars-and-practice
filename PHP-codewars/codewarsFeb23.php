@@ -170,3 +170,4 @@ function descendingOrder(int $n): int {
 
 echo 0, descendingOrder(0);
 echo 1, descendingOrder(1);
+echo 51, descendingOrder(15);
