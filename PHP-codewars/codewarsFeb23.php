@@ -166,4 +166,4 @@ function descendingOrder(int $n): int {
     $narr = str_split((string) $n);
     rsort($narr);
     return (int) implode('', $narr);
-  }
+}
