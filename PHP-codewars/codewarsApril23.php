@@ -6,3 +6,5 @@ function smallestInteger ($arr) {
     $sorted = sort($arr);
     return $arr[0];
 }
+
+echo smallestInteger([3, 5, 10, 1, 4, 55]), 1;
