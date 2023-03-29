@@ -8,4 +8,4 @@ function smallestInteger ($arr) {
 }
 
 // echo smallestInteger([3, 5, 10, 1, 4, 55]), 1;
-echo smallestInteger([0]), 0;
+// echo smallestInteger([0]), 0;
