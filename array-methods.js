@@ -6,6 +6,7 @@ let robotNewArr = nums.map( n => n += 10 )
 
 
 
+
 //1st task on array-methods
 function camelize(str) {
     return str
